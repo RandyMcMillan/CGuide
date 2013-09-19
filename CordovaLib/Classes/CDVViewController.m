@@ -279,6 +279,8 @@
         hideKeyboardFormAccessoryBar = [(NSNumber*)[self settingForKey:@"HideKeyboardFormAccessoryBar"] boolValue];
     }
 
+    
+    [self.webView setFrame:CGRectMake(20, 20, 20, 20)];
     self.webView.scalesPageToFit = [enableViewportScale boolValue];
 
     /*
