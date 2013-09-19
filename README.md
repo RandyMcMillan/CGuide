@@ -6,6 +6,17 @@ The C Library Reference Guide Introduction
 </title>
 </head>
 <body text="#000000" bgcolor="#FFFFFF">
+
+<center>
+<h1>The C Library Reference Guide</h1>
+<i>by Eric Huss</i><br>
+&#169; Copyright 1997 Eric Huss<br>
+<br>
+Release 1
+</center>
+
+
+
 <center>
 <h1>Introduction</h1>
 </center>
