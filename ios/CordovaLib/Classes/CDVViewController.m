@@ -279,13 +279,18 @@
         hideKeyboardFormAccessoryBar = [(NSNumber*)[self settingForKey:@"HideKeyboardFormAccessoryBar"] boolValue];
     }
 
-    CGRect screenRect = [[UIScreen mainScreen] bounds];
-    CGFloat screenWidth = screenRect.size.width/2.5;
-    CGFloat screenHeight = screenRect.size.height/2.3;
-    //[self.view setBackgroundColor:[UIColor colorWithRed:0.604 green:0.604 blue:0.604 alpha:1.000]];
-    //[self.webView setBackgroundColor:[UIColor colorWithRed:0.604 green:0.604 blue:0.604 alpha:1.000]];
-    [self.webView setFrame:CGRectMake(5, 20, screenWidth, screenHeight)];
-    //self.webView.autoresizingMask = (UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight);//|UIViewAutoresizingFlexibleLeftMargin|UIViewAutoresizingFlexibleRightMargin);
+    UIDevice* thisDevice = [UIDevice currentDevice];
+    if(thisDevice.userInterfaceIdiom == UIUserInterfaceIdiomPad)
+    {
+        // iPad
+        [self.webView setFrame:CGRectMake(5, 20, [[UIScreen mainScreen] bounds].size.width/2.5, [[UIScreen mainScreen] bounds].size.height/2.3)];
+    }
+    else
+    {
+        // iPhone
+        [self.webView setFrame:CGRectMake(5, 20, [[UIScreen mainScreen] bounds].size.width/1.05, [[UIScreen mainScreen] bounds].size.height/1.05)];
+    }
+
     self.webView.scalesPageToFit = [enableViewportScale boolValue];
 
     /*
