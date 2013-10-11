@@ -220,6 +220,11 @@
 				CLASSPREFIX = CDV;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = OpenOSX.org;
+				TargetAttributes = {
+					48B43513152E5E3500906A36 = {
+						DevelopmentTeam = LC9LH52FFZ;
+					};
+				};
 			};
 			buildConfigurationList = 48B4350E152E5E3500906A36 /* Build configuration list for PBXProject "CGuide" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -389,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CGuide/CGuide-Prefix.pch";
@@ -405,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CGuide/CGuide-Prefix.pch";
