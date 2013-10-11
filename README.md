@@ -1,5 +1,8 @@
-#CGuide is an ANSI C Reference for iOS
-<br><html>
+CGuide is an ANSI C Reference for iOS/OSX
+====
+CGuide is built using the Cordova iOS and OSX frameworks and can serve as a demonstration of how to build a Universal iOS and OSX app using web technologies. These Xcode projects bundle Eric Hess's C LIbrary Reference Guide into an iOS App that runs on iOS devices and also bundles the reference guide into an OSX app that runs on a Mac Desktop.
+
+<br><br><br><br><html>
     <head><link rel="stylesheet" type="text/css" href="css/index.css" />
 
 <title>
