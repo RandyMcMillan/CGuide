@@ -31,7 +31,7 @@
 	<key>CFBundleHelpBookFolder</key>
 	<string>Help.help</string>
 	<key>CFBundleHelpBookName</key>
-	<string>Foobar Help</string>
+	<string>CGuide Help</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 </dict>
