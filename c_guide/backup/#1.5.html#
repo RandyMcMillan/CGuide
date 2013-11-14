@@ -71,22 +71,27 @@ printf("%i",!lisa);</b></code><br>
      The result of this is the sum of the two expressions.<br>
 <br>
      <i>expression1</i><code><b> - </b></code><i>expression2</i><br>
-     The result of this is the value of <i>expression2</i> subtracted from <i>expression1</i>.<br>
+     The result of this is the value of <i>expression2</i> subtracted from <i>expression1</i>.
+<br>
 <br>
      <i>expression1</i><code><b> * </b></code><i>expression2</i><br>
-     The result of this is the value of <i>expression1</i> multiplied by <i>expression2</i>.<br>
+     The result of this is the value of <i>expression1</i> multiplied by <i>expression2</i>.
+<br>
 <br>
      <i>expression1</i><code><b> / </b></code><i>expression2</i><br>
-     The result of this is the value of <i>expression1</i> divided by <i>expression2</i>.<br>
+     The result of this is the value of <i>expression1</i> divided by <i>expression2</i>.
+<br>
 <br>
      <i>expression1</i><code><b> % </b></code><i>expression2</i><br>
      The result of this is the value of the remainder after dividing <i>expression1</i> by <i>expression2</i>. 
-Also called the modulo operator.<br>
+Also called the modulo operator.
+<br>
 <br>
      <i>expression1</i><code><b> & </b></code><i>expression2</i><br>
      Returns a bitwise AND operation done on <i>expression1</i> and <i>expression2</i>.  The result is a
 value the same size as the expressions with its bits modified using the following rules: Both bits
-must be 1 (on) to result in 1 (on), otherwise the result is 0 (off).<br>
+must be 1 (on) to result in 1 (on), otherwise the result is 0 (off).
+<br>
 <center>
 <table border=1>
 <tr>
@@ -120,7 +125,8 @@ must be 1 (on) to result in 1 (on), otherwise the result is 0 (off).<br>
      <i>expression1</i><code><b> | </b></code><i>expression2</i><br>
      Returns a bitwise OR operation done on <i>expression1</i> and <i>expression2</i>.  The result is a
 value the same size as the expressions with its bits modified using the following rules: Both bits
-must be 0 (off) to result in 0 (off), otherwise the result is 1 (on).<br>
+must be 0 (off) to result in 0 (off), otherwise the result is 1 (on).
+<br>
 <center>
 <table border=1>
 <tr>
@@ -154,7 +160,8 @@ must be 0 (off) to result in 0 (off), otherwise the result is 1 (on).<br>
      <i>expression1</i><code><b> ^ </b></code><i>expression2</i><br>
      Returns a bitwise XOR operation done on <i>expression1</i> and <i>expression2</i>.  The result is a
 value the same size as the expressions with its bits modified using the following rules: If both
-bits are the same, then the result is 0 (off), otherwise the result is 1 (on).<br>
+bits are the same, then the result is 0 (off), otherwise the result is 1 (on).
+<br>
 <center>
 <table border=1>
 <tr>
@@ -189,7 +196,8 @@ bits are the same, then the result is 0 (off), otherwise the result is 1 (on).<
      Returns <i>expression1</i> with its bits shifted to the right by the <i>shift_value</i>.  The leftmost bits
 are replaced with zeros if the value is nonnegative or unsigned.  This result is the integer part of
 <i>expression1</i> divided by 2 raised to the power of <i>shift_value</i>.  If <i>expression1</i> is signed, then the
-result is implementation specific.<br>
+result is implementation specific.
+<br>
 <br>
      <i>expression1</i><code><b> &lt;&lt; </b></code><i>shift_value</i><br>
      Returns <i>expression1</i> with its bits shifted to the left by the <i>shift_value</i>.  The rightmost bits
@@ -203,7 +211,8 @@ The boolean operators return either 1 (true) or 0 (false).
 <blockquote>
      <i>expression1</i><code><b> &amp;&amp; </b></code><i>expression2</i><br>
      Returns the logical AND operation of <i>expression1</i> and <i>expression2</i>.  The result is 1 (true)
-if both expressions are true, otherwise the result is 0 (false).<br>
+if both expressions are true, otherwise the result is 0 (false).
+<br>
 <center>
 <table border=1>
 <tr>
@@ -234,9 +243,11 @@ if both expressions are true, otherwise the result is 0 (false).<br>
 </table>
 </center>
 <br>
-     <i>expression1</i><code><b> || </b></code><i>expression2</i><br>
+     <i>expression1</i><code><b> || </b></code><i>expression2</i>
+<br>
      Returns the logical OR operation of <i>expression1</i> and <i>expression2</i>.  The result is 0 (false)
-if bother expressions are false, otherwise the result is 1 (true).<br>
+if bother expressions are false, otherwise the result is 1 (true).
+<br>
 <center>
 <table border=1>
 <tr>
@@ -266,28 +277,46 @@ if bother expressions are false, otherwise the result is 1 (true).<br>
 </tr>
 </table>
 </center>
-<br>
-     <i>expression1</i><code><b> &lt; </b></code><i>expression2</i><br>
-     Returns 1 (true) if <i>expression1</i> is less than <i>expression2</i>, otherwise the result is 0 (false).<br>
-<br>
-     <i>expression1</i><code><b> &gt; </b></code><i>expression2</i><br>
+
+<br>
+     <i>expression1</i><code><b> &lt; </b></code><i>expression2</i>
+<br>
+     Returns 1 (true) if <i>expression1</i> is less than <i>expression2</i>, otherwise the result is 0 (false).
+<br>
+
+<br>
+     <i>expression1</i><code><b> &gt; </b></code><i>expression2</i>
+<br>
      Returns 1 (true) if <i>expression1</i> is greater than <i>expression2</i>, otherwise the result is 0
-(false).<br>
-<br>
-     <i>expression1</i><code><b> &lt;= </b></code><i>expression2</i><br>
+(false).
+<br>
+
+<br>
+     <i>expression1</i><code><b> &lt;= </b></code><i>expression2</i>
+<br>
      Returns 1 (true) if <i>expression1</i> is less than or equal to <i>expression2</i>, otherwise the result is
-0 (false).<br>
-<br>
-     <i>expression1</i><code><b> &gt;= </b></code><i>expression2</i><br>
+0 (false).
+<br>
+
+<br>
+     <i>expression1</i><code><b> &gt;= </b></code><i>expression2</i>
+<br>
      Returns 1 (true) if <i>expression1</i> is greater than or equal to <i>expression2</i>, otherwise the
-result is 0 (false).<br>
-<br>
-     <i>expression1</i><code><b> == </b></code><i>expression2</i><br>
-     Returns 1 (true) if <i>expression1</i> is equal to <i>expression2</i>, otherwise the result is 0 (false).<br>
-<br>
-     <i>expression1</i><code><b> != </b></code><i>expression2</i><br>
+result is 0 (false).
+<br>
+
+<br>
+     <i>expression1</i><code><b> == </b></code><i>expression2</i>
+<br>
+     Returns 1 (true) if <i>expression1</i> is equal to <i>expression2</i>, otherwise the result is 0 (false).
+<br>
+
+<br>
+     <i>expression1</i><code><b> != </b></code><i>expression2</i>
+<br>
      Returns 1 (true) if <i>expression</i>1 is not equal to <i>expression2</i>, otherwise the result is 0
-(false).<br>
+(false).
+<br>
 </blockquote>
 
 <h1> 1.5.5     Assignment</h1>
