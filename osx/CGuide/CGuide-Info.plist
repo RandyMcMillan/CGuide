@@ -28,6 +28,10 @@
 	<string>Apache License, Version 2.0</string>
 	<key>NSMainNibFile</key>
 	<string>MainViewController</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Help.help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>Foobar Help</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 </dict>
