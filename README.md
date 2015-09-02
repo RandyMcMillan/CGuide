@@ -6,4 +6,4 @@ CGuide is built using the Cordova iOS and OSX frameworks and can serve as a demo
 
 ###OSX 
 
-![image](https://raw.githubusercontent.com/RandyMcMillan/CGuide/master/osx/Screen%20Shot%202015-09-01%20at%2010.44.52%20PM.png)
+![image](https://raw.githubusercontent.com/RandyMcMillan/CGuide/master/osx/ScreenShot.png)
