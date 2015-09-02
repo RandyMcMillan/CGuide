@@ -4,3 +4,9 @@
 .DS_Store
 build
 www/phonegap.js
+
+*.xcuserstate
+
+osx/.DS_Store
+
+osx/.DS_Store
