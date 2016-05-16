@@ -368,7 +368,7 @@
 			name = CordovaFrameworkTests;
 			productName = CordovaFrameworkTests;
 			productReference = 7E4C0A8816EAA1C600542982 /* CordovaFrameworkTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -376,6 +376,7 @@
 		7E4C0A6716EAA1C600542982 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0730;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Apache Foundation";
 			};
