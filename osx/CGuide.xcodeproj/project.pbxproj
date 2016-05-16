@@ -10,7 +10,6 @@
 		48B43519152E5E3500906A36 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B43518152E5E3500906A36 /* Cocoa.framework */; };
 		48B43525152E5E3500906A36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B43524152E5E3500906A36 /* main.m */; };
 		48B43536152E5E4100906A36 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B43535152E5E4100906A36 /* WebKit.framework */; };
-		48B43538152E5E6B00906A36 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 48B43537152E5E6B00906A36 /* www */; };
 		48BB3EED18352BEC007B8ACA /* c_guide in Resources */ = {isa = PBXBuildFile; fileRef = 48BB3EEC18352BEC007B8ACA /* c_guide */; };
 		48BB3EF018352C73007B8ACA /* Help.help in Resources */ = {isa = PBXBuildFile; fileRef = 48BB3EEF18352C73007B8ACA /* Help.help */; };
 		7E4C0B0916EAA4EB00542982 /* Cordova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4C0B0416EAA3CF00542982 /* Cordova.framework */; };
@@ -72,7 +71,6 @@
 		48B43524152E5E3500906A36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CGuide/main.m; sourceTree = "<group>"; };
 		48B43526152E5E3500906A36 /* CGuide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CGuide-Prefix.pch"; path = "CGuide/CGuide-Prefix.pch"; sourceTree = "<group>"; };
 		48B43535152E5E4100906A36 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		48B43537152E5E6B00906A36 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		48BB3EEC18352BEC007B8ACA /* c_guide */ = {isa = PBXFileReference; lastKnownFileType = folder; name = c_guide; path = ../c_guide; sourceTree = "<group>"; };
 		48BB3EEF18352C73007B8ACA /* Help.help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Help.help; sourceTree = "<group>"; };
 		7E4C0AFE16EAA3CF00542982 /* CordovaFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaFramework.xcodeproj; path = CordovaFramework/CordovaFramework.xcodeproj; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 			children = (
 				48BB3EEC18352BEC007B8ACA /* c_guide */,
 				7E608F2A16E7D9B00018F512 /* config.xml */,
-				48B43537152E5E6B00906A36 /* www */,
 				7E4C0AFE16EAA3CF00542982 /* CordovaFramework.xcodeproj */,
 				7E608F4016E7EE970018F512 /* Resources */,
 				7E608F3216E7EE8D0018F512 /* Classes */,
@@ -272,7 +269,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48B43538152E5E6B00906A36 /* www in Resources */,
 				7E608F2B16E7D9B00018F512 /* config.xml in Resources */,
 				7E608F4816E7EE970018F512 /* CGuide.icns in Resources */,
 				7E608F4916E7EE970018F512 /* Credits.rtf in Resources */,
