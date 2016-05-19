@@ -1,248 +1,390 @@
 <html>
 <head>
 <title>
-The C Library Reference Guide
-</title>
-<!-- Changed by: eric huss, 12-Mar-1997 -->
-<link rel="stylesheet" type="text/css" href="css/index.css" />
+C Guide--Index
+</title>        <link rel="stylesheet" type="text/css" href="css/index.css" />
 
 </head>
 <body text="#000000" bgcolor="#FFFFFF">
-The C Library Reference Guide</h1>
-<i>by Eric Huss</i><br>
-&#169; Copyright 1997 Eric Huss<br>
-<br>
-Release 1
-<hr size=5>
-<pre>
-<b><a href="introduction.html">Introduction</a></b>
-
-1.   <b>Language</b>
-     1.1  <a href="1.1.html">Characters</a>
-          1.1.1     Trigraph Characters
-          1.1.2     Escape Sequences
-          1.1.3     Comments
-     1.2  <a href="1.2.html">Identifiers</a>
-          1.2.1     <a href="1.2.html#keywords">Keywords</a>
-          1.2.2     <a href="1.2.html#variables">Variables</a>
-          1.2.3     <a href="1.2.html#enum">Enumerated Tags</a>
-          1.2.4     <a href="1.2.html#arrays">Arrays</a>
-          1.2.5     <a href="1.2.html#struct">Structures and Unions</a>
-          1.2.6     <a href="1.2.html#const">Constants</a>
-          1.2.7     <a href="1.2.html#strings">Strings</a>
-          1.2.8     <a href="1.2.html#sizeof">sizeof Keyword</a>
-     1.3  <a href="1.3.html">Functions</a>
-          1.3.1     Definition
-          1.3.2     Program Startup
-     1.4  <a href="1.4.html">References</a>
-          1.4.1     Pointers and the Address Operator
-          1.4.2     Typecasting
-     1.5  <a href="1.5.html">Operators</a>
-          1.5.1     Postfix
-          1.5.2     Unary and Prefix
-          1.5.3     Normal
-          1.5.4     Boolean
-          1.5.5     Assignment
-          1.5.6     Precedence
-     1.6  <a href="1.6.html">Statements</a>
-          1.6.1     <a href="1.6.html#if">if</a>
-          1.6.2     <a href="1.6.html#switch">switch</a>
-          1.6.3     <a href="1.6.html#while">while</a>  
-          1.6.4     <a href="1.6.html#do">do</a>
-          1.6.5     <a href="1.6.html#for">for</a>
-          1.6.6     <a href="1.6.html#goto">goto</a>
-          1.6.7     <a href="1.6.html#continue">continue</a>
-          1.6.8     <a href="1.6.html#break">break</a>
-          1.6.9     <a href="1.6.html#return">return</a>
-     1.7  <a href="1.7.html">Preprocessing Directives</a>
-          1.7.1     <a href="1.7.html#conditional">#if, #elif, #else, #endif</a>
-          1.7.2     <a href="1.7.html#define">#define, #undef, #ifdef, #ifndef</a>
-          1.7.3     <a href="1.7.html#include">#include</a>
-          1.7.4     <a href="1.7.html#line">#line</a>
-          1.7.5     <a href="1.7.html#error">#error</a>
-          1.7.6     <a href="1.7.html#pragma">#pragma</a>
-          1.7.7     <a href="1.7.html#macros">Predefined Macros</a>
-2.   <b>Library</b>
-     2.1  <a href="2.1.html">assert.h</a>
-          2.1.1     assert
-     2.2  <a href="2.2.html">ctype.h</a>
-          2.2.1     is... Functions
-          2.2.2     to... Functions
-     2.3  <a href="2.3.html">errno.h</a> 
-          2.3.1     EDOM
-          2.3.2     ERANGE
-          2.3.3     errno   
-     2.4  <a href="2.4.html">float.h</a>
-          2.4.1     Defined Values
-     2.5  <a href="2.5.html">limits.h</a>
-          2.5.1     Defined Values
-     2.6  <a href="2.6.html">locale.h</a>
-          2.6.1     Variables and Definitions
-          2.6.2     setlocale
-          2.6.3     localeconv
-     2.7  <a href="2.7.html">math.h</a>
-          2.7.1     Error Conditions
-          2.7.2     Trigonometric Functions
-               2.7.2.1   <a href="2.7.html#acos">acos</a>
-               2.7.2.2   <a href="2.7.html#asin">asin</a>
-               2.7.2.3   <a href="2.7.html#atan">atan</a>
-               2.7.2.4   <a href="2.7.html#atan2">atan2</a>
-               2.7.2.5   <a href="2.7.html#cos">cos</a>
-               2.7.2.6   <a href="2.7.html#cosh">cosh</a>
-               2.7.2.7   <a href="2.7.html#sin">sin</a>
-               2.7.2.8   <a href="2.7.html#sinh">sinh</a>
-               2.7.2.9   <a href="2.7.html#tan">tan</a>
-               2.7.2.10  <a href="2.7.html#tanh">tanh</a>
-          2.7.3     Exponential, Logarithmic, and Power Functions
-               2.7.3.1   <a href="2.7.html#exp">exp</a>
-               2.7.3.2   <a href="2.7.html#frexp">frexp</a>
-               2.7.3.3   <a href="2.7.html#ldexp">ldexp</a>
-               2.7.3.4   <a href="2.7.html#log">log</a>
-               2.7.3.5   <a href="2.7.html#log10">log10</a>
-               2.7.3.6   <a href="2.7.html#modf">modf</a>
-               2.7.3.7   <a href="2.7.html#pow">pow</a>
-               2.7.3.8   <a href="2.7.html#sqrt">sqrt</a>
-          2.7.4     Other Math Functions
-               2.7.4.1   <a href="2.7.html#ceil">ceil</a>
-               2.7.4.2   <a href="2.7.html#fabs">fabs</a>
-               2.7.4.3   <a href="2.7.html#floor">floor</a>
-               2.7.4.4   <a href="2.7.html#fmod">fmod</a>
-     2.8  <a href="2.8.html">setjmp.h</a>
-          2.8.1     Variables and Definitions
-          2.8.2     setjmp
-          2.8.3     longjmp
-     2.9  <a href="2.9.html">signal.h</a>
-          2.9.1     Variables and Definitions
-          2.9.2     signal
-          2.9.3     raise
-     2.10 <a href="2.10.html">stdarg.h</a>
-          2.10.1    Variables and Definitions
-          2.10.2    va_start
-          2.10.3    va_arg
-          2.10.4    va_end
-     2.11 <a href="2.11.html">stddef.h</a>
-          2.11.1    Variables and Definitions
-     2.12 <a href="2.12.html">stdio.h</a>
-          2.12.1    <a href="2.12.html#variables">Variables and Definitions</a>
-          2.12.2    <a href="2.12.html#streams">Streams and Files</a>
-          2.12.3    File Functions
-               2.12.3.1  <a href="2.12.html#clearerr">clearerr</a>
-               2.12.3.2  <a href="2.12.html#fclose">fclose</a>
-               2.12.3.3  <a href="2.12.html#feof">feof</a>
-               2.12.3.4  <a href="2.12.html#ferror">ferror</a>
-               2.12.3.5  <a href="2.12.html#fflush">fflush</a>
-               2.12.3.6  <a href="2.12.html#fgetpos">fgetpos</a>
-               2.12.3.7  <a href="2.12.html#fopen">fopen</a>
-               2.12.3.8  <a href="2.12.html#fread">fread</a>
-               2.12.3.9  <a href="2.12.html#freopen">freopen</a>
-               2.12.3.10 <a href="2.12.html#fseek">fseek</a>
-               2.12.3.11 <a href="2.12.html#fsetpos">fsetpos</a>
-               2.12.3.12 <a href="2.12.html#ftell">ftell</a>
-               2.12.3.13 <a href="2.12.html#fwrite">fwrite</a>
-               2.12.3.14 <a href="2.12.html#remove">remove</a>
-               2.12.3.15 <a href="2.12.html#rename">rename</a>
-               2.12.3.16 <a href="2.12.html#rewind">rewind</a>
-               2.12.3.17 <a href="2.12.html#setbuf">setbuf</a>
-               2.12.3.18 <a href="2.12.html#setvbuf">setvbuf</a>
-               2.12.3.19 <a href="2.12.html#tmpfile">tmpfile</a>
-               2.12.3.20 <a href="2.12.html#tmpnam">tmpnam</a>
-          2.12.4    Formatted I/O Functions
-               2.12.4.1  <a href="2.12.html#printf">...printf Functions</a>
-               2.12.4.2  <a href="2.12.html#scanf">...scanf Functions</a>
-          2.12.5    Character I/O Functions
-               2.12.5.1  <a href="2.12.html#fgetc">fgetc</a>
-               2.12.5.2  <a href="2.12.html#fgets">fgets</a>
-               2.12.5.3  <a href="2.12.html#fputc">fputc</a>
-               2.12.5.4  <a href="2.12.html#fputs">fputs</a>
-               2.12.5.5  <a href="2.12.html#getc">getc</a>
-               2.12.5.6  <a href="2.12.html#getchar">getchar</a>
-               2.12.5.7  <a href="2.12.html#gets">gets</a>
-               2.12.5.8  <a href="2.12.html#putc">putc</a>
-               2.12.5.9  <a href="2.12.html#putchar">putchar</a>
-               2.12.5.10 <a href="2.12.html#puts">puts</a>
-               2.12.5.11 <a href="2.12.html#ungetc">ungetc</a>
-          2.12.7    Error Functions
-               2.12.7.1  <a href="2.12.html#perror">perror</a>
-     2.13 <a href="2.13.html">stdlib.h</a>
-          2.13.1    <a href="2.13.html#variables">Variables and Definitions</a>
-          2.13.2    String Functions
-               2.13.2.1  <a href="2.13.html#atof">atof</a>
-               2.13.2.2  <a href="2.13.html#atoi">atoi</a>
-               2.13.2.3  <a href="2.13.html#atol">atol</a>
-               2.13.2.4  <a href="2.13.html#strtod">strtod</a>
-               2.13.2.5  <a href="2.13.html#strtol">strtol</a>
-               2.13.2.6  <a href="2.13.html#strtoul">strtoul</a>
-          2.13.3    Memory Functions
-               2.13.3.1  <a href="2.13.html#calloc">calloc</a>
-               2.13.3.2  <a href="2.13.html#free">free</a>
-               2.13.3.3  <a href="2.13.html#malloc">malloc</a>
-               2.13.3.4  <a href="2.13.html#realloc">realloc</a>
-          2.13.4    Environment Functions
-               2.13.4.1  <a href="2.13.html#abort">abort</a>
-               2.13.4.2  <a href="2.13.html#atexit">atexit</a>
-               2.13.4.3  <a href="2.13.html#exit">exit</a>
-               2.13.4.4  <a href="2.13.html#getenv">getenv</a>
-               2.13.4.5  <a href="2.13.html#system">system</a>
-          2.13.5    Searching and Sorting Functions
-               2.13.5.1  <a href="2.13.html#bsearch">bsearch</a>
-               2.13.5.2  <a href="2.13.html#qsort">qsort</a>
-          2.13.6    Math Functions  
-               2.13.6.1  <a href="2.13.html#abs">abs</a>
-               2.13.6.2  <a href="2.13.html#div">div</a>
-               2.13.6.3  <a href="2.13.html#labs">labs</a>
-               2.13.6.4  <a href="2.13.html#ldiv">ldiv</a>
-               2.13.6.5  <a href="2.13.html#rand">rand</a>
-               2.13.6.6  <a href="2.13.html#srand">srand</a>
-          2.13.7    Multibyte Functions
-               2.13.7.1  <a href="2.13.html#mblen">mblen</a>
-               2.13.7.2  <a href="2.13.html#mbstowcs">mbstowcs</a>
-               2.13.7.3  <a href="2.13.html#mbtowc">mbtowc</a>
-               2.13.7.4  <a href="2.13.html#wcstombs">wcstombs</a>
-               2.13.7.5  <a href="2.13.html#wctomb">wctomb</a>
-     2.14 <a href="2.14.html">string.h</a>
-          2.14.1    <a href="2.14.html#variables">Variables and Definitions</a>
-          2.14.2    <a href="2.14.html#memchr">memchr</a>
-          2.14.3    <a href="2.14.html#memcmp">memcmp</a>
-          2.14.4    <a href="2.14.html#memcpy">memcpy</a>
-          2.14.5    <a href="2.14.html#memmove">memmove</a>
-          2.14.6    <a href="2.14.html#memset">memset</a>
-          2.14.7    <a href="2.14.html#strcat">strcat</a>
-          2.14.8    <a href="2.14.html#strncat">strncat</a>
-          2.14.9    <a href="2.14.html#strchr">strchr</a>
-          2.14.10   <a href="2.14.html#strcmp">strcmp</a>
-          2.14.11   <a href="2.14.html#strncmp">strncmp</a>
-          2.14.12   <a href="2.14.html#strcoll">strcoll</a>
-          2.14.13   <a href="2.14.html#strcpy">strcpy</a>
-          2.14.14   <a href="2.14.html#strncpy">strncpy</a>
-          2.14.15   <a href="2.14.html#strcspn">strcspn</a>
-          2.14.16   <a href="2.14.html#strerror">strerror</a>
-          2.14.17   <a href="2.14.html#strlen">strlen</a>
-          2.14.18   <a href="2.14.html#strpbrk">strpbrk</a>
-          2.14.19   <a href="2.14.html#strrchr">strrchr</a>
-          2.14.20   <a href="2.14.html#strspn">strspn</a>
-          2.14.21   <a href="2.14.html#strstr">strstr</a>
-          2.14.22   <a href="2.14.html#strtok">strtok</a>
-          2.14.23   <a href="2.14.html#strxfrm">strxfrm</a>
-     2.15 <a href="2.15.html">time.h</a> 
-          2.15.1    <a href="2.15.html#variables">Variables and Definitions</a>
-          2.15.2    <a href="2.15.html#asctime">asctime</a>
-          2.15.3    <a href="2.15.html#clock">clock</a>
-          2.15.4    <a href="2.15.html#ctime">ctime</a>
-          2.15.5    <a href="2.15.html#difftime">difftime</a>
-          2.15.6    <a href="2.15.html#gmtime">gmtime</a>
-          2.15.7    <a href="2.15.html#localtime">localtime</a>
-          2.15.8    <a href="2.15.html#mktime">mktime</a>
-          2.15.9    <a href="2.15.html#strftime">strftime</a>
-          2.15.10   <a href="2.15.html#time">time</a>
-<b>Appendix A</b>
-	<a href="a.html">ASCII Chart</a>
-<b>Index</b>
-	<a href="index2.html">Index</a>
-</pre>
-<hr>
 <center>
-<font size=-1>Questions, comments, or error reports?  Please send them to
-<a href="mailto:e-huss@uiuc.edu">Eric Huss</a>
+<h1>The C Library Reference Guide</h1>
+<h3>Index</h3>
+
+[ <a href="#pound">#</a> |
+  <a href="#underunder">__</a> |
+  <a href="#under">_</a> |
+  <a href="#a">A</a> |
+  <a href="#b">B</a> |
+  <a href="#c">C</a> |
+  <a href="#d">D</a> |
+  <a href="#e">E</a> |
+  <a href="#f">F</a> |
+  <a href="#g">G</a> |
+  <a href="#h">H</a> |
+  <a href="#i">I</a> |
+  <a href="#j">J</a> |
+  <a href="#l">L</a> |
+  <a href="#m">M</a> |
+  <a href="#n">N</a> |
+  <a href="#o">O</a> |
+  <a href="#p">P</a> |
+  <a href="#q">Q</a> |
+  <a href="#r">R</a> |
+  <a href="#s">S</a> |
+  <a href="#t">T</a> |
+  <a href="#u">U</a> |
+  <a href="#v">V</a> |
+  <a href="#w">W</a>
+]<br>
+<a href="index.html">Table of Contents</a>
 </center>
+<hr>
+
+<a name="pound"></a>
+#if <a href="1.7.html#conditional">Preprocessing Directives</a><br>
+#define <a href="1.7.html#define">Preprocessing Directives</a><br>
+#elif <a href="1.7.html#conditional">Preprocessing Directives</a><br>
+#else <a href="1.7.html#conditional">Preprocessing Directives</a><br>
+#endif <a href="1.7.html#conditional">Preprocessing Directives</a><br>
+#error <a href="1.7.html#error">Preprocessing Directives</a><br>
+#ifdef <a href="1.7.html#define">Preprocessing Directives</a><br>
+#ifndef <a href="1.7.html#define">Preprocessing Directives</a><br>
+#include <a href="1.7.html#include">Preprocessing Directives</a><br>
+#line <a href="1.7.html#line">Preprocessing Directives</a><br>
+#pragma <a href="1.7.html#pragma">Preprocessing Directives</a><br>
+#undef <a href="1.7.html#define">Preprocessing Directives</a><br>
+
+<p>
+<a name="underunder"></a>
+__LINE__ <a href="1.7.html#macros">Preprocessing Directives</a><br>
+__FILE__ <a href="1.7.html#macros">Preprocessing Directives</a><br>
+__DATE__ <a href="1.7.html#macros">Preprocessing Directives</a><br>
+__TIME__ <a href="1.7.html#macros">Preprocessing Directives</a><br>
+__STDC__ <a href="1.7.html#macros">Preprocessing Directives</a><br>
+
+<p>
+
+<a name="under"></a>
+_IOFBF <a href="2.12.html#variables">stdio.h</a><br>
+_IOLBF <a href="2.12.html#variables">stdio.h</a><br>
+_IONBF <a href="2.12.html#variables">stdio.h</a><br>
+
+<p>
+
+<a name="a"></a>
+abort() <a href="2.13.html#abort">stdlib.h</a><br>
+abs() <a href="2.13.html#abs">stdlib.h</a><br>
+acos() <a href="2.7.html#acos">math.h</a><br>
+asctime() <a href="2.15.html#asctime">time.h</a><br>
+asin() <a href="2.7.html#asin">math.h</a><br>
+assert() <a href="2.1.html#assert">assert.h</a><br>
+atan() <a href="2.7.html#atan">math.h</a><br>
+atan2() <a href="2.7.html#atan2">math.h</a><br>
+atexit() <a href="2.13.html#atexit">stdlib.h</a><br>
+atof() <a href="2.13.html#atof">stdlib.h</a><br>
+atoi() <a href="2.13.html#atoi">stdlib.h</a><br>
+atol() <a href="2.13.html#atol">stdlib.h</a><br>
+auto <a href="1.2.html#variables">Identifiers</a><br>
+
+<p>
+<a name="b"></a>
+break <a href="1.6.html#break">Statements</a><br>
+bsearch() <a href="2.13.html#bsearch">stdlib.h</a><br>
+BUFSIZ <a href="2.12.html#variables">stdio.h</a><br>
+
+<p>
+<a name="c"></a>
+
+calloc() <a href="2.13.html#calloc">stdlib.h</a><br>
+ceil() <a href="2.7.html#ceil">math.h</a><br>
+char <a href="1.2.html#variables">Identifiers</a><br>
+clearerr() <a href="2.12.html#clearerr">stdio.h</a><br>
+clock() <a href="2.15.html#clock">time.h</a><br>
+clock_t <a href="2.15.html#variables">time.h</a><br>
+CLOCKS_PER_SEC <a href="2.15.html#variables">time.h</a><br>
+const <a href="1.2.html#const">Identifiers</a><br>
+continue <a href="1.6.html#continue">Statements</a><br>
+cos() <a href="2.7.html#cos">math.h</a><br>
+cosh() <a href="2.7.html#cosh">math.h</a><br>
+ctime() <a href="2.15.html#ctime">time.h</a><br>
+
+<p>
+<a name="d"></a>
+
+difftime() <a href="2.15.html#difftime">time.h</a><br>
+div() <a href="2.13.html#div">stdlib.h</a><br>
+div_t <a href="2.13.html#variables">stdlib.h</a><br>
+do <a href="1.6.html#do">Statements</a><br>
+double <a href="1.2.html#variables">Identifiers</a><br>
+
+<p>
+<a name="e"></a>
+
+EDOM <a href="2.3.html#edom">errno.h</a><br>
+enum <a href="1.2.html#enum">Identifiers</a><br>
+EOF <a href="2.12.html#variables">stdio.h</a><br>
+ERANGE <a href="2.3.html#erange">errno.h</a><br>
+errno <a href="2.3.html#errno">errno.h</a><br>
+exit() <a href="2.13.html#exit">stdlib.h</a><br>
+EXIT_FAILURE <a href="2.13.html#variables">stdlib.h</a><br>
+EXIT_SUCCESS <a href="2.13.html#variables">stdlib.h</a><br>
+exp() <a href="2.7.html#exp">math.h</a><br>
+extern <a href="1.2.html#variables">Identifiers</a><br>
+
+<p>
+<a name="f"></a>
+fabs() <a href="2.7.html#fabs">math.h</a><br>
+fclose() <a href="2.12.html#fclose">stdio.h</a><br>
+feof() <a href="2.12.html#feof">stdio.h</a><br>
+ferror() <a href="2.12.html#ferror">stdio.h</a><br>
+fflush() <a href="2.12.html#fflush">stdio.h</a><br>
+fgetc() <a href="2.12.html#fgetc">stdio.h</a><br>
+fgetpos() <a href="2.12.html#fgetpos">stdio.h</a><br>
+fgets() <a href="2.12.html#fgets">stdio.h</a><br>
+FILE <a href="2.12.html#variables">stdio.h</a><br>
+FILENAME_MAX <a href="2.12.html#variables">stdio.h</a><br>
+float <a href="1.2.html#variables">Identifiers</a><br>
+floor() <a href="2.7.html#floor">math.h</a><br>
+fmod() <a href="2.7.html#fmod">math.h</a><br>
+fopen() <a href="2.12.html#fopen">stdio.h</a><br>
+FOPEN_MAX <a href="2.12.html#variables">stdio.h</a><br>
+for <a href="1.6.html#for">Statements</a><br>
+fpos_t <a href="2.12.html#variables">stdio.h</a><br>
+fprintf() <a href="2.12.html#fprintf">stdio.h</a><br>
+fputc() <a href="2.12.html#fputc">stdio.h</a><br>
+fputs() <a href="2.12.html#fputs">stdio.h</a><br>
+fread() <a href="2.12.html#fread">stdio.h</a><br>
+free() <a href="2.13.html#free">stdlib.h</a><br>
+freopen() <a href="2.12.html#freopen">stdio.h</a><br>
+frexp() <a href="2.7.html#frexp">math.h</a><br>
+fscanf() <a href="2.12.html#fscanf">stdio.h</a><br>
+fseek() <a href="2.12.html#fseek">stdio.h</a><br>
+fsetpos() <a href="2.12.html#fsetpos">stdio.h</a><br>
+ftell() <a href="2.12.html#ftell">stdio.h</a><br>
+fwrite() <a href="2.12.html#fwrite">stdio.h</a><br>
+
+<p>
+<a name="g"></a>
+
+getc() <a href="2.12.html#getc">stdio.h</a><br>
+getchar() <a href="2.12.html#getchar">stdio.h</a><br>
+getenv() <a href="2.13.html#getenv">stdlib.h</a><br>
+gets() <a href="2.12.html#gets">stdio.h</a><br>
+gmtime() <a href="2.15.html#gmtime">time.h</a><br>
+goto <a href="1.6.html#goto">Statements</a><br>
+
+<p>
+<a name="h"></a>
+
+HUGE_VAL <a href="2.7.html#variables">math.h</a><br>
+
+<p>
+<a name="i"></a>
+
+if <a href="1.6.html#if">Statements</a><br>
+isalnum() <a href="2.2.html#is">ctype.h</a><br>
+isalpha() <a href="2.2.html#is">ctype.h</a><br>
+iscntrl() <a href="2.2.html#is">ctype.h</a><br>
+isdigit() <a href="2.2.html#is">ctype.h</a><br>
+isgraph() <a href="2.2.html#is">ctype.h</a><br>
+islower() <a href="2.2.html#is">ctype.h</a><br>
+isprint() <a href="2.2.html#is">ctype.h</a><br>
+ispunct() <a href="2.2.html#is">ctype.h</a><br>
+isspace() <a href="2.2.html#is">ctype.h</a><br>
+isupper() <a href="2.2.html#is">ctype.h</a><br>
+isxdigit() <a href="2.2.html#is">ctype.h</a><br>
+
+<p>
+<a name="j"></a>
+
+jmp_buf <a href="2.8.html#variables">setjmp.h</a><br>
+
+<p>
+<a name="l"></a>
+
+L_tmpnam <a href="2.12.html#variables">stdio.h</a><br>
+labs() <a href="2.13.html#labs">stdlib.h</a><br>
+LC_ALL <a href="2.6.html#variables">locale.h</a><br>
+LC_COLLATE <a href="2.6.html#variables">locale.h</a><br>
+LC_CTYPE <a href="2.6.html#variables">locale.h</a><br>
+LC_MONETARY <a href="2.6.html#variables">locale.h</a><br>
+LC_NUMERIC <a href="2.6.html#variables">locale.h</a><br>
+LC_TIME <a href="2.6.html#variables">locale.h</a><br>
+ldexp() <a href="2.7.html#ldexp">math.h</a><br>
+ldiv() <a href="2.13.html#ldiv">stdlib.h</a><br>
+ldiv_t <a href="2.13.html#variables">stdlib.h</a><br>
+linkage <a href="1.2.html#variables">Identifiers</a><br>
+localeconv() <a href="2.6.html#localeconv">locale.h</a><br>
+localtime() <a href="2.15.html#localtime">time.h</a><br>
+log() <a href="2.7.html#log">math.h</a><br>
+log10() <a href="2.7.html#log10">math.h</a><br>
+long <a href="1.2.html#variables">Identifiers</a><br>
+longjmp() <a href="2.8.html#longjmp">setjmp.h</a><br>
+<p>
+<a name="m"></a>
+
+malloc() <a href="2.13.html#malloc">stdlib.h</a><br>
+MB_CUR_MAX <a href="2.13.html#variables">stdlib.h</a><br>
+mblen() <a href="2.13.html#mblen">stdlib.h</a><br>
+mbstowcs() <a href="2.13.html#mbstowcs">stdlib.h</a><br>
+mbtowc() <a href="2.13.html#mbtowc">stdlib.h</a><br>
+memchr() <a href="2.14.html#memchr">string.h</a><br>
+memcmp() <a href="2.14.html#memcmp">string.h</a><br>
+memcpy() <a href="2.14.html#memcpy">string.h</a><br>
+memmove() <a href="2.14.html#memmove">string.h</a><br>
+memset() <a href="2.14.html#memset">string.h</a><br>
+mktime() <a href="2.15.html#mktime">time.h</a><br>
+modf() <a href="2.7.html#modf">math.h</a><br>
+
+<p>
+<a name="n"></a>
+
+NDEBUG <a href="2.1.html#assert">assert.h</a><br>
+NULL <a href="2.15.html#variables">time.h</a> <a href="2.14.html#variables">string.h</a>
+<a href="2.13.html#variables">stdlib.h</a>
+<a href="2.12.html#variables">stdio.h</a>
+<a href="2.11.html#variables">stddef.h</a>
+<a href="2.6.html#variables">locale.h</a>
+<br>
+
+<p>
+<a name="o"></a>
+
+offsetof() <a href="2.11.html#variables">stddef.h</a><br>
+
+
+<p>
+<a name="p"></a>
+
+perror() <a href="2.12.html#perror">stdio.h</a><br>
+pow() <a href="2.7.html#pow">math.h</a><br>
+printf() <a href="2.12.html#printf">stdio.h</a><br>
+ptrdiff_t <a href="2.11.html#variables">stddef.h</a><br>
+putc() <a href="2.12.html#putc">stdio.h</a><br>
+putchar() <a href="2.12.html#putchar">stdio.h</a><br>
+puts() <a href="2.12.html#puts">stdio.h</a><br>
+<p>
+<a name="q"></a>
+
+qsort() <a href="2.13.html#qsort">stdlib.h</a><br>
+
+<p>
+<a name="r"></a>
+
+raise() <a href="2.9.html#raise">signal.h</a><br>
+rand() <a href="2.13.html#rand">stdlib.h</a><br>
+RAND_MAX <a href="2.13.html#variables">stdlib.h</a><br>
+realloc() <a href="2.13.html#realloc">stdlib.h</a><br>
+register <a href="1.2.html#variables">Identifiers</a><br>
+remove() <a href="2.12.html#remove">stdio.h</a><br>
+rename() <a href="2.12.html#rename">stdio.h</a><br>
+return <a href="1.6.html#return">Statements</a><br>
+rewind() <a href="2.12.html#rewind">stdio.h</a><br>
+
+<p>
+<a name="s"></a>
+
+scanf() <a href="2.12.html#scanf">stdio.h</a><br>
+scope <a href="1.2.html#variables">Identifiers</a><br>
+SEEK_CUR <a href="2.12.html#variables">stdio.h</a><br>
+SEEK_END <a href="2.12.html#variables">stdio.h</a><br>
+SEEK_SET <a href="2.12.html#variables">stdio.h</a><br>
+setbuf() <a href="2.12.html#setbuf">stdio.h</a><br>
+setjmp() <a href="2.8.html#setjmp">setjmp.h</a><br>
+setlocale() <a href="2.6.html#setlocale">locale.h</a><br>
+setvbuf() <a href="2.12.html#setvbuf">stdio.h</a><br>
+short <a href="1.2.html#variables">Identifiers</a><br>
+sig_atomic_t <a href="2.9.html#variables">signal.h</a><br>
+SIG_DFL <a href="2.9.html#variables">signal.h</a><br>
+SIG_ERR <a href="2.9.html#variables">signal.h</a><br>
+SIG_IGN <a href="2.9.html#variables">signal.h</a><br>
+SIGABRT <a href="2.9.html#variables">signal.h</a><br>
+SIGFPE <a href="2.9.html#variables">signal.h</a><br>
+SIGILL <a href="2.9.html#variables">signal.h</a><br>
+SIGINT <a href="2.9.html#variables">signal.h</a><br>
+signed <a href="1.2.html#variables">Identifiers</a><br>
+SIGSEGV <a href="2.9.html#variables">signal.h</a><br>
+SIGTERM <a href="2.9.html#variables">signal.h</a><br>
+signal() <a href="2.9.html#signal">signal.h</a><br>
+sin() <a href="2.7.html#sin">math.h</a><br>
+sinh() <a href="2.7.html#sinh">math.h</a><br>
+size_t <a href="2.15.html#variables">time.h</a> <a href="2.14.html#variables">string.h</a>
+ <a href="2.13.html#variables">stdlib.h</a>
+ <a href="2.12.html#variables">stdio.h</a>
+ <a href="2.11.html#variables">stddef.h</a>
+<br>
+sizeof <a href="1.2.html#sizeof">Identifiers</a><br>
+sprintf() <a href="2.12.html#sprintf">stdio.h</a><br>
+sqrt() <a href="2.7.html#sqrt">math.h</a><br>
+srand() <a href="2.13.html#srand">stdlib.h</a><br>
+sscanf() <a href="2.12.html#sscanf">stdio.h</a><br>
+static <a href="1.2.html#variables">Identifiers</a><br>
+stderr <a href="2.12.html#variables">stdio.h</a><br>
+stdin <a href="2.12.html#variables">stdio.h</a><br>
+stdout <a href="2.12.html#variables">stdio.h</a><br>
+strcat() <a href="2.14.html#strcat">string.h</a><br>
+strncat() <a href="2.14.html#strncat">string.h</a><br>
+strchr() <a href="2.14.html#strchr">string.h</a><br>
+strcmp() <a href="2.14.html#strcmp">string.h</a><br>
+strncmp() <a href="2.14.html#strncmp">string.h</a><br>
+strcoll() <a href="2.14.html#strcoll">string.h</a><br>
+strcpy() <a href="2.14.html#strcpy">string.h</a><br>
+strncpy() <a href="2.14.html#strncpy">string.h</a><br>
+strcspn() <a href="2.14.html#strcspn">string.h</a><br>
+strerror() <a href="2.14.html#strerror">string.h</a><br>
+strftime() <a href="2.15.html#strftime">time.h</a><br>
+strlen() <a href="2.14.html#strlen">string.h</a><br>
+strpbrk() <a href="2.14.html#strpbrk">string.h</a><br>
+strrchr() <a href="2.14.html#strrchr">string.h</a><br>
+strspn() <a href="2.14.html#strspn">string.h</a><br>
+strstr() <a href="2.14.html#strstr">string.h</a><br>
+strtod() <a href="2.13.html#strtod">stdlib.h</a><br>
+strtok() <a href="2.14.html#strtok">string.h</a><br>
+strtol() <a href="2.13.html#strtol">stdlib.h</a><br>
+strtoul() <a href="2.13.html#strtoul">stdlib.h</a><br>
+struct <a href="1.2.html#struct">Indentifiers</a><br>
+strxfrm() <a href="2.14.html#strxfrm">string.h</a><br>
+switch <a href="1.6.html#switch">Statements</a><br>
+system() <a href="2.13.html#system">stdlib.h</a><br>
+
+<p>
+<a name="t"></a>
+
+tan() <a href="2.7.html#tan">math.h</a><br>
+tanh() <a href="2.7.html#tanh">math.h</a><br>
+time() <a href="2.15.html#time">time.h</a><br>
+tm <a href="2.15.html#variables">time.h</a><br>
+TMP_MAX <a href="2.12.html#variables">stdio.h</a><br>
+tmpfile() <a href="2.12.html#tmpfile">stdio.h</a><br>
+tmpnam() <a href="2.12.html#tmpnam">stdio.h</a><br>
+tolower() <a href="2.2.html#to">ctype.h</a><br>
+toupper() <a href="2.2.html#to">ctype.h</a><br>
+typedef <a href="1.2.html#variables">Identifiers</a><br>
+<p>
+<a name="u"></a>
+
+ungetc() <a href="2.12.html#ungetc">stdio.h</a><br>
+unions <a href="1.2.html#struct">Identifiers</a><br>
+<p>
+<a name="v"></a>
+
+va_arg() <a href="2.10.html#va_arg">stdarg.h</a><br>
+va_end() <a href="2.10.html#va_end">stdarg.h</a><br>
+va_list <a href="2.10.html#variables">stdarg.h</a><br>
+va_start() <a href="2.10.html#va_start">stdarg.h</a><br>
+vfprintf() <a href="2.12.html#vfprintf">stdio.h</a><br>
+void <a href="1.2.html#variables">Identifiers</a><br>
+vprintf() <a href="2.12.html#vprintf">stdio.h</a><br>
+vsprintf() <a href="2.12.html#vsprintf">stdio.h</a><br>
+
+<p>
+<a name="w"></a>
+
+wcstombs() <a href="2.13.html#wcstombs">stdlib.h</a><br>
+wctomb() <a href="2.13.html#wctomb">stdlib.h</a><br>
+wchar_t <a href="2.13.html#variables">stdlib.h</a>
+ <a href="2.11.html#variables">stddef.h</a>
+<br>
+while <a href="1.6.html#while">Statements</a><br>
 </body>
 </html>
