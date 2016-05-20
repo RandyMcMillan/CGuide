@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "solarized.css",
+	"sources": [
+		"../scss/solarized.scss"
+	],
+	"mappings": "",
+	"names": []
+}
