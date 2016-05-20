@@ -1,0 +1,15 @@
+{
+  "name": "css-colors-solarized",
+  "homepage": "http://robmuh.github.io/css-colors-solarized",
+  "version": "0.9.1",
+  "_release": "0.9.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.9.1",
+    "commit": "e2334d48374617335ec062583cb189f6f19fba9f"
+  },
+  "_source": "https://github.com/robmuh/css-colors-solarized.git",
+  "_target": "^0.9.1",
+  "_originalSource": "css-colors-solarized",
+  "_direct": true
+}
