@@ -20,9 +20,9 @@
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
 
-bo_____dy {
+body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
-    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -we___bkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     background-color:transparent;
     /*background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
@@ -38,13 +38,16 @@ bo_____dy {
         color-stop(0.51, #E4E4E4)
     );
     */
+    text:#000000 !important;
+    background-color: #ffffff !important;
+
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;
     height:100%;
     margin:0px;
     padding:10px;
-    text-transform:uppercase;
+    te___xt-transform:uppercase;
     width:95%;
 }
 
