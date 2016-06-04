@@ -395,8 +395,147 @@ $('').attr( 'text', '#d33682' );
 
 $(function(){
   $('').each(function(){
-    $(this).addClass('smagenta');
+    $(this).addClass('sviolet');
   });
 });
 
-$('').attr( 'text', '#d33682' );
+$('').attr( 'text', '#6c71c4' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sviolet');
+  });
+});
+
+$('').attr( 'text', '#6c71c4' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sviolet');
+  });
+});
+
+$('').attr( 'text', '#6c71c4' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sviolet');
+  });
+});
+
+$('').attr( 'text', '#6c71c4' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sviolet');
+  });
+});
+
+$('').attr( 'text', '#6c71c4' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sblue');
+  });
+});
+
+$('').attr( 'text', '#268bd2' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sblue');
+  });
+});
+
+$('').attr( 'text', '#268bd2' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sblue');
+  });
+});
+
+$('').attr( 'text', '#268bd2' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sblue');
+  });
+});
+
+$('').attr( 'text', '#268bd2' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('scyan');
+  });
+});
+
+$('').attr( 'text', '#2aa198' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('scyan');
+  });
+});
+
+$('').attr( 'text', '#2aa198' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('scyan');
+  });
+});
+
+$('').attr( 'text', '#2aa198' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('scyan');
+  });
+});
+
+$('').attr( 'text', '#2aa198' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sgreen');
+  });
+});
+
+$('').attr( 'text', '#859900' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sgreen');
+  });
+});
+
+$('').attr( 'text', '#859900' );
+
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sgreen');
+  });
+});
+
+$('').attr( 'text', '#859900' );
+
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sgreen');
+  });
+});
+
+$('').attr( 'text', '#859900' );
+
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sgreen');
+  });
+});
+
+$('').attr( 'text', '#859900' );
