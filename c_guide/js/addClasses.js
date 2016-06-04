@@ -14,10 +14,27 @@ $(function(){
 
 $(function(){
   $('h1').each(function(){
+    $(this).addClass('base1');
+  });
+});
+
+$(function(){
+  $('h2').each(function(){
+    $(this).addClass('base00');
+  });
+});
+
+$(function(){
+  $('h3').each(function(){
     $(this).addClass('base0');
   });
 });
 
+$(function(){
+  $('h4').each(function(){
+    $(this).addClass('base0');
+  });
+});
 
 $(function(){
   $('i').each(function(){
@@ -36,6 +53,19 @@ $(function(){
     $(this).addClass('base0');
   });
 });
+
+$(function(){
+  $('center a').each(function(){
+    $(this).addClass('sblue');
+  });
+});
+
+$(function(){
+  $(' a').each(function(){
+    $(this).addClass('sblue');
+  });
+});
+
 
 $(function(){
   $('pre').each(function(){
@@ -74,7 +104,7 @@ $(function(){
 
 $(function(){
   $('tbody').each(function(){
-    $(this).addClass('base0');
+    $(this).addClass('base02bg');
   });
 });
 
@@ -91,7 +121,50 @@ $(function(){
 });
 
 $(function(){
-  $('code').each(function(){
-    $(this).addClass('base0');
+  $('code b').each(function(){
+    $(this).addClass('scyan');
+  });
+});
+
+$(function(){
+  $('blockquote code').each(function(){
+    $(this).addClass('base02bg');
+  });
+});
+
+
+$(function(){
+  $('b a').each(function(){
+    $(this).addClass('syellow');
+  });
+});
+
+$(function(){
+  $('pre b').each(function(){
+    $(this).addClass('syellow');
+  });
+});
+
+$(function(){
+  $('pre a').each(function(){
+    $(this).addClass('syellow');
+  });
+});
+
+$(function(){
+  $('i').each(function(){
+    $(this).addClass('sgreen');
+  });
+});
+
+$(function(){
+  $('tr th').each(function(){
+    $(this).addClass('syellow');
+  });
+});
+
+$(function(){
+  $('tr td').each(function(){
+    $(this).addClass('sorange');
   });
 });
