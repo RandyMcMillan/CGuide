@@ -1,12 +1,12 @@
 <html>
-    <head>        <link rel="stylesheet" type="text/css" href="css/index.css" />
-
+    <head>
+<link rel="stylesheet" href="css/index.css" media="screen">
 <title>
 C Guide--2.15 time.h
 </title>
 <!-- Changed by: eric huss, 12-Mar-1997 -->
 </head>
-<body text="#000000" bgcolor="#FFFFFF">
+<body>
 
 <center>
 <table border=0 width=100%>
@@ -17,7 +17,7 @@ C Guide--2.15 time.h
 Previous Section<br>
 2.14 string.h</a></td>
 <td align=center width=60% valign=top>
-| <a href="index.html">Table of Contents</a> | 
+| <a href="index.html">Table of Contents</a> |
 <a href="index2.html">Index</a> |</td>
 <td align=right width=20% valign=top>
 <a href="index2.html">
@@ -102,7 +102,7 @@ Declaration:
 <blockquote><code><b>
      char *asctime(const struct tm *</b></code><i>timeptr</i><code><b>);
 </b></code></blockquote>
-     Returns a pointer to a string which represents the day and time of the structure <i>timeptr</i>. 
+     Returns a pointer to a string which represents the day and time of the structure <i>timeptr</i>.
 The string is in the following format:
 <blockquote><code><b>
 DDD MMM dd hh:mm:ss YYYY
@@ -285,7 +285,7 @@ Example:
 #include&lt;time.h&gt;
 #include&lt;stdio.h&gt;
 
-/* find out what day of the week is January 1, 2001 
+/* find out what day of the week is January 1, 2001
   (first day of the 21st century) */
 
 int main(void)
@@ -378,7 +378,7 @@ into the object it points to.  If the time is unavailable, then -1 is returned.
 Previous Section<br>
 2.14 string.h</a></td>
 <td align=center width=60% valign=top>
-| <a href="index.html">Table of Contents</a> | 
+| <a href="index.html">Table of Contents</a> |
 <a href="index2.html">Index</a> |</td>
 <td align=right width=20% valign=top>
 <a href="index2.html">
@@ -388,6 +388,10 @@ Index</a></td>
 </tr>
 </table>
 </center>
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="usf-bootstrap-theme/javascripts/bootstrap.min.js"></script>
+<script src="js/min/addClasses-min.js"></script>
 
 </body>
 </html>

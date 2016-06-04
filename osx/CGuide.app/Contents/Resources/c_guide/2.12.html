@@ -1,12 +1,12 @@
 <html>
-    <head>        <link rel="stylesheet" type="text/css" href="css/index.css" />
-
+    <head>
+<link rel="stylesheet" href="css/index.css" media="screen">
 <title>
 C Guide--2.12 stdio.h
 </title>
 <!-- Changed by: eric huss, 12-Mar-1997 -->
 </head>
-<body text="#000000" bgcolor="#FFFFFF">
+<body>
 
 <center>
 <table border=0 width=100%>
@@ -17,7 +17,7 @@ C Guide--2.12 stdio.h
 Previous Section<br>
 2.11 stddef.h</a></td>
 <td align=center width=60% valign=top>
-| <a href="index.html">Table of Contents</a> | 
+| <a href="index.html">Table of Contents</a> |
 <a href="index2.html">Index</a> |</td>
 <td align=right width=20% valign=top>
 <a href="2.13.html">
@@ -292,7 +292,7 @@ Declaration:
      FILE *freopen(const char *</b></code><i>filename</i><b><code>, const char *</b></code><i>mode</i><b><code>, FILE *</b></code><i>stream</i><b><code>);
 </b></code></blockquote>
 
-     Associates a new filename with the given open stream.  The old file in stream is closed. 
+     Associates a new filename with the given open stream.  The old file in stream is closed.
 If an error occurs while closing the file, the error is ignored.  The mode argument is the same as
 described in the fopen command.  Normally used for reassociating stdin, stdout, or stderr.
 <p>
@@ -638,7 +638,7 @@ nt.</td></tr>
 <tr><td valign=top><code><b>x</b></code> </td><td>        Type <code><b>unsigned int</b></code> printed in hexadecimal as dddd using a, b, c, d, e, f.</td></tr>
 <tr><td valign=top><code><b>X</b></code> </td><td>        Type <code><b>unsigned int</b></code> printed in hexadecimal as dddd using A, B, C, D, E, F.</td></tr>
 <tr><td valign=top><code><b>f</b></code> </td><td>        Type <code><b>double</b></code> printed as [-]ddd.ddd.</td></tr>
-<tr><td valign=top><code><b>e</b></code>, <code><b>E</b></code> </td><td>     Type <code><b>double</b></code> printed as [-]d.dddeñdd where there is one digit printed before the
+<tr><td valign=top><code><b>e</b></code>, <code><b>E</b></code> </td><td>     Type <code><b>double</b></code> printed as [-]d.dddeï¿½dd where there is one digit printed before the
 decimal (zero       only if the value is zero).  The exponent contains at least two
 digits.  If type is E then the exponent is        printed with a capital E.</td></tr>
 <tr><td valign=top><code><b>g</b></code>, <code><b>G</b></code> </td><td>     Type <code><b>double</b></code> printed as type e or E if the exponent is less than -4 or greater than
@@ -680,11 +680,11 @@ each input field into the following arguments in a left to right fashion.
      Each input field is specified in the format string with a conversion specifier which
 specifies how the input is to be stored in the appropriate variable.  Other characters in the format
 string specify characters that must be matched from the input, but are not stored in any of the
-following arguments.  If the input does not match then the function stops scanning and returns. 
+following arguments.  If the input does not match then the function stops scanning and returns.
 A whitespace character may match with any whitespace character (space, tab, carriage return,
 new line, vertical tab, or formfeed) or the next incompatible character.
 <p>
-     An input field is specified with a conversion specifer which begins with the <code><b>%</b></code> character. 
+     An input field is specified with a conversion specifer which begins with the <code><b>%</b></code> character.
 After the <code><b>%</b></code> character come the following in this order:
 <table border=0>
 <tr><td><b>[*]</b></td><td>       Assignment suppressor (optional).</td></tr>
@@ -959,7 +959,7 @@ printed.
 Previous Section<br>
 2.11 stddef.h</a></td>
 <td align=center width=60% valign=top>
-| <a href="index.html">Table of Contents</a> | 
+| <a href="index.html">Table of Contents</a> |
 <a href="index2.html">Index</a> |</td>
 <td align=right width=20% valign=top>
 <a href="2.13.html">
@@ -969,6 +969,10 @@ Next Section
 </tr>
 </table>
 </center>
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="usf-bootstrap-theme/javascripts/bootstrap.min.js"></script>
+<script src="js/min/addClasses-min.js"></script>
 
 </body>
 </html>
