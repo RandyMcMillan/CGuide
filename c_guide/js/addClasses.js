@@ -326,3 +326,77 @@ $(function(){
 });
 
 $('').attr( 'text', '#cb4b16' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sred');
+  });
+});
+
+$('').attr( 'text', '#dc322f' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sred');
+  });
+});
+
+$('').attr( 'text', '#dc322f' );
+
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sred');
+  });
+});
+
+$('').attr( 'text', '#dc322f' );
+
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sred');
+  });
+});
+
+$('').attr( 'text', '#dc322f' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('smagenta');
+  });
+});
+
+$('').attr( 'text', '#d33682' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('smagenta');
+  });
+});
+
+$('').attr( 'text', '#d33682' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('smagenta');
+  });
+});
+
+$('').attr( 'text', '#d33682' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('smagenta');
+  });
+});
+
+$('').attr( 'text', '#d33682' );
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('smagenta');
+  });
+});
+
+$('').attr( 'text', '#d33682' );
