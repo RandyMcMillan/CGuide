@@ -240,8 +240,16 @@ $(function(){
 $('').attr( 'text', '#eee8d5' );
 
 $(function(){
-  $('').each(function(){
-    $(this).addClass('base3');
+  $('h1').each(function(){
+    $(this).addClass('base0');
+  });
+});
+
+$('').attr( 'text', '#fdf6e3' );
+
+$(function(){
+  $('h3').each(function(){
+    $(this).addClass('base00');
   });
 });
 
@@ -264,15 +272,7 @@ $(function(){
 $('').attr( 'text', '#fdf6e3' );
 
 $(function(){
-  $('').each(function(){
-    $(this).addClass('base3');
-  });
-});
-
-$('').attr( 'text', '#fdf6e3' );
-
-$(function(){
-  $('').each(function(){
+  $('i').each(function(){
     $(this).addClass('syellow');
   });
 });
@@ -280,7 +280,7 @@ $(function(){
 $('').attr( 'text', '#b58900' );
 
 $(function(){
-  $('').each(function(){
+  $('pre b').each(function(){
     $(this).addClass('syellow');
   });
 });
@@ -288,13 +288,51 @@ $(function(){
 $('').attr( 'text', '#b58900' );
 
 $(function(){
-  $('').each(function(){
-    $(this).addClass('syellow');
+  $('blockquote').each(function(){
+    $(this).addClass('base02bg');
   });
 });
 
 $('').attr( 'text', '#b58900' );
 
+
+$(function(){
+  $('hr').each(function(){
+    $(this).addClass('sred');
+  });
+});
+
+$('').attr( 'text', '#b58900' );
+
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sred');
+  });
+});
+
+$('').attr( 'text', '#b58900' );
+
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sred');
+  });
+});
+
+$('').attr( 'text', '#b58900' );
+
+
+$(function(){
+  $('').each(function(){
+    $(this).addClass('sred');
+  });
+});
+
+$('').attr( 'text', '#b58900' );
+
+
+
 $(function(){
   $('').each(function(){
     $(this).addClass('sorange');
@@ -466,8 +504,8 @@ $(function(){
 $('').attr( 'text', '#268bd2' );
 
 $(function(){
-  $('').each(function(){
-    $(this).addClass('scyan');
+  $('a').each(function(){
+    $(this).addClass('sblue');
   });
 });
 
@@ -515,7 +553,7 @@ $('').attr( 'text', '#859900' );
 
 
 $(function(){
-  $('').each(function(){
+  $('p a').each(function(){
     $(this).addClass('sgreen');
   });
 });
@@ -531,6 +569,14 @@ $(function(){
 
 $('').attr( 'text', '#859900' );
 
+
+$(function(){
+  $('code').each(function(){
+    $(this).addClass('sgreen');
+  });
+});
+
+$('').attr( 'text', '#859900' );
 
 $(function(){
   $('').each(function(){
