@@ -1,10 +1,20 @@
 $(function(){
+  $('html').each(function(){
+    $(this).addClass('base03bg');
+  });
+});
+
+$('html').attr( 'text', '#839496' );
+
+
+$(function(){
   $('body').each(function(){
     $(this).addClass('base03bg');
   });
 });
 
 $('body').attr( 'text', '#839496' );
+$('body').attr( 'style', 'margin:10px;' );
 
 $(function(){
   $('').each(function(){
@@ -286,6 +296,17 @@ $(function(){
 });
 
 $('').attr( 'text', '#b58900' );
+$('pre b').attr( 'style', 'margin:0px;' );
+
+$(function(){
+  $('b').each(function(){
+    $(this).addClass('syellow');
+  });
+});
+
+$('').attr( 'text', '#b58900' );
+$('b').attr( 'style', 'margin:0px;' );
+
 
 $(function(){
   $('blockquote').each(function(){
@@ -294,6 +315,7 @@ $(function(){
 });
 
 $('').attr( 'text', '#b58900' );
+$('blockquote').attr( 'style', 'padding:8px;' );
 
 
 $(function(){
@@ -577,6 +599,7 @@ $(function(){
 });
 
 $('').attr( 'text', '#859900' );
+$('code').attr( 'style', 'margin:10px;' );
 
 $(function(){
   $('').each(function(){
