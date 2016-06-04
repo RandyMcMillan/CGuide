@@ -13,6 +13,19 @@ $(function(){
 });
 
 $(function(){
+  $('center hr').each(function(){
+    $(this).addClass('sred');
+  });
+});
+
+$(function(){
+  $('center table').each(function(){
+    $(this).addClass('');
+  });
+});
+
+
+$(function(){
   $('h1').each(function(){
     $(this).addClass('base1');
   });
@@ -38,7 +51,7 @@ $(function(){
 
 $(function(){
   $('i').each(function(){
-    $(this).addClass('base0');
+    $(this).addClass('sgreen');
   });
 });
 
@@ -104,7 +117,7 @@ $(function(){
 
 $(function(){
   $('tbody').each(function(){
-    $(this).addClass('base02bg');
+    $(this).addClass('base02');
   });
 });
 
@@ -121,6 +134,14 @@ $(function(){
 });
 
 $(function(){
+  $('').each(function(){
+    $(this).addClass('sred');
+  });
+});
+
+
+
+$(function(){
   $('code b').each(function(){
     $(this).addClass('scyan');
   });
@@ -128,7 +149,7 @@ $(function(){
 
 $(function(){
   $('blockquote code').each(function(){
-    $(this).addClass('base02bg');
+    $(this).addClass('base02');
   });
 });
 
@@ -152,7 +173,7 @@ $(function(){
 });
 
 $(function(){
-  $('i').each(function(){
+  $('').each(function(){
     $(this).addClass('sgreen');
   });
 });
@@ -165,6 +186,6 @@ $(function(){
 
 $(function(){
   $('tr td').each(function(){
-    $(this).addClass('sorange');
+    $(this).addClass('base0');
   });
 });
