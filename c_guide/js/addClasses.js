@@ -4,6 +4,7 @@ $(function(){
   });
 });
 
+$('body').attr( 'text', '#657b83' );
 
 $(function(){
   $('center').each(function(){
@@ -55,6 +56,42 @@ $(function(){
 
 $(function(){
   $('font').each(function(){
+    $(this).addClass('base00');
+  });
+});
+
+$(function(){
+  $('p').each(function(){
+    $(this).addClass('base00');
+  });
+});
+
+$(function(){
+  $('table').each(function(){
+    $(this).addClass('base00');
+  });
+});
+
+$(function(){
+  $('tbody').each(function(){
+    $(this).addClass('base00');
+  });
+});
+
+$(function(){
+  $('tr').each(function(){
+    $(this).addClass('base00');
+  });
+});
+
+$(function(){
+  $('td').each(function(){
+    $(this).addClass('base00');
+  });
+});
+
+$(function(){
+  $('code').each(function(){
     $(this).addClass('base00');
   });
 });
