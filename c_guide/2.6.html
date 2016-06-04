@@ -7,7 +7,7 @@ C Guide--2.6 locale.h
 </title>
 <!-- Changed by: eric huss, 12-Mar-1997 -->
 </head>
-<body text="#000000" bgcolor="#FFFFFF">
+<body>
 
 <center>
 <table border=0 width=100%>
@@ -18,7 +18,7 @@ C Guide--2.6 locale.h
 Previous Section<br>
 2.5 limits.h</a></td>
 <td align=center width=60% valign=top>
-| <a href="index.html">Table of Contents</a> | 
+| <a href="index.html">Table of Contents</a> |
 <a href="index2.html">Index</a> |</td>
 <td align=right width=20% valign=top>
 <a href="2.7.html">
@@ -59,7 +59,7 @@ Functions:
 <h2>2.6.1     Variables and Definitions</h2>
 <p>
      The <code><b>lconv</b></code> structure contains the following variables in any order.  The use of this
-structure is described in <b>2.6.3 localeconv</b>.  
+structure is described in <b>2.6.3 localeconv</b>.
 <blockquote><code><b>
      char *decimal_point;<br>
      char *thousands_sep;<br>
@@ -161,7 +161,7 @@ then the value is not available.
 </td></tr><tr>
 <td><code><b>char *grouping</b></code></td>
 <td>     A string that indicates the size of each group of digits in non-monetary quantities.  Each
-character represents an integer value which designates the number of digits in the current group. 
+character represents an integer value which designates the number of digits in the current group.
 A value of 0 means that the previous value is to be used for the rest of the groups.
 </td></tr><tr>
 <td><code><b>char *int_curr_symbol</b></code></td>
@@ -179,7 +179,7 @@ from the monetary quantity.
 <td>     The thousands place grouping character used for monetary values.
 </td></tr><tr>
 <td><code><b>char *mon_grouping</b></code></td>
-<td>     A string whose elements define the size of the grouping of digits in monetary values. 
+<td>     A string whose elements define the size of the grouping of digits in monetary values.
 Each character represents an integer value which designates the number of digits in the current
 group.  A value of 0 means that the previous value is to be used for the rest of the groups.
 </td></tr><tr>
@@ -272,7 +272,7 @@ int main(void)
 Previous Section<br>
 2.5 limits.h</a></td>
 <td align=center width=60% valign=top>
-| <a href="index.html">Table of Contents</a> | 
+| <a href="index.html">Table of Contents</a> |
 <a href="index2.html">Index</a> |</td>
 <td align=right width=20% valign=top>
 <a href="2.7.html">

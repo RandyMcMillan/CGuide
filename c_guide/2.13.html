@@ -6,7 +6,7 @@ C Guide--2.13 stdlib.h
 </title>
 <!-- Changed by: eric huss, 12-Mar-1997 -->
 </head>
-<body text="#000000" bgcolor="#FFFFFF">
+<body>
 
 <center>
 <table border=0 width=100%>
@@ -17,7 +17,7 @@ C Guide--2.13 stdlib.h
 Previous Section<br>
 2.12 stdio.h</a></td>
 <td align=center width=60% valign=top>
-| <a href="index.html">Table of Contents</a> | 
+| <a href="index.html">Table of Contents</a> |
 <a href="index2.html">Index</a> |</td>
 <td align=right width=20% valign=top>
 <a href="2.14.html">
@@ -109,7 +109,7 @@ Declaration:
      The string pointed to by the argument <i>str</i> is converted to a floating-point number (type
 <code><b>double</b></code>).  Any initial whitespace characters are skipped (space, tab, carriage return, new line,
 vertical tab, or formfeed).  The number may consist of an optional sign, a string of digits with an
-optional decimal character, and an optional <code><b>e</b></code> or <code><b>E</b></code> followed by a optionally signed exponent. 
+optional decimal character, and an optional <code><b>e</b></code> or <code><b>E</b></code> followed by a optionally signed exponent.
 Conversion stops when the first unrecognized character is reached.
 <p>
      On success the converted number is returned.  If no conversion can be made, zero is
@@ -141,7 +141,7 @@ Declaration:
      long int atol(const char *</b></code><i>str</i><code><b>);
 </b></code></blockquote>
 
-     The string pointed to by the argument <i>str</i> is converted to a long integer (type <code><b>long int</b></code>). 
+     The string pointed to by the argument <i>str</i> is converted to a long integer (type <code><b>long int</b></code>).
 Any initial whitespace characters are skipped (space, tab, carriage return, new line, vertical tab,
 or formfeed).  The number may consist of an optional sign and a string of digits.  Conversion
 stops when the first unrecognized character is reached.
@@ -161,11 +161,11 @@ Declaration:
      The string pointed to by the argument <i>str</i> is converted to a floating-point number (type
 <code><b>double</b></code>).  Any initial whitespace characters are skipped (space, tab, carriage return, new line,
 vertical tab, or formfeed).  The number may consist of an optional sign, a string of digits with an
-optional decimal character, and an optional <code><b>e</b></code> or <code><b>E</b></code> followed by a optionally signed exponent. 
+optional decimal character, and an optional <code><b>e</b></code> or <code><b>E</b></code> followed by a optionally signed exponent.
 Conversion stops when the first unrecognized character is reached.
 <p>
      The argument <i>endptr</i> is a pointer to a pointer.  The address of the character that stopped
-the scan is stored in the pointer that <i>endptr</i> points to. 
+the scan is stored in the pointer that <i>endptr</i> points to.
 <p>
      On success the converted number is returned.  If no conversion can be made, zero is
 returned.  If the value is out of range of the type double, then <code><b>HUGE_VAL</b></code> is returned with the
@@ -182,7 +182,7 @@ Declaration:
 </b></code></blockquote>
 
 
-     The string pointed to by the argument <i>str</i> is converted to a long integer (type <code><b>long int</b></code>). 
+     The string pointed to by the argument <i>str</i> is converted to a long integer (type <code><b>long int</b></code>).
 Any initial whitespace characters are skipped (space, tab, carriage return, new line, vertical tab,
 or formfeed).  The number may consist of an optional sign and a string of digits.  Conversion
 stops when the first unrecognized character is reached.
@@ -198,7 +198,7 @@ characters A to Z (or a to z) are used.  If the base is 16, then the characters 
 the number.
 <p>
      The argument <i>endptr</i> is a pointer to a pointer.  The address of the character that stopped
-the scan is stored in the pointer that <i>endptr</i> points to. 
+the scan is stored in the pointer that <i>endptr</i> points to.
 <p>
      On success the converted number is returned.  If no conversion can be made, zero is
 returned.  If the value is out of the range of the type <code><b>long int</b></code>, then <code><b>LONG_MAX</b></code> or <code><b>LONG_MIN</b></code>
@@ -229,7 +229,7 @@ characters A to Z (or a to z) are used.  If the <i>base</i> is 16, then the char
 the number.
 <p>
      The argument <i>endptr</i> is a pointer to a pointer.  The address of the character that stopped
-the scan is stored in the pointer that <i>endptr</i> points to. 
+the scan is stored in the pointer that <i>endptr</i> points to.
 <p>
      On success the converted number is returned.  If no conversion can be made, zero is
 returned.  If the value is out of the range of the type <code><b>unsigned long int</b></code>, then <code><b>ULONG_MAX</b></code> is
@@ -666,7 +666,7 @@ wchar are returned.  A value of -1 is returned if wchar is not a valid multibyte
 Previous Section<br>
 2.12 stdio.h</a></td>
 <td align=center width=60% valign=top>
-| <a href="index.html">Table of Contents</a> | 
+| <a href="index.html">Table of Contents</a> |
 <a href="index2.html">Index</a> |</td>
 <td align=right width=20% valign=top>
 <a href="2.14.html">
