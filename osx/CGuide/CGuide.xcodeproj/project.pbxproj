@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		486FC1D31CEA8AD2009675EB /* c_guide in Resources */ = {isa = PBXBuildFile; fileRef = 486FC1D21CEA8AD2009675EB /* c_guide */; };
+		4892B6051D04C971001268AD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4892B6041D04C971001268AD /* Credits.rtf */; };
 		707060AF18FFC05700755D46 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 707060AE18FFC05700755D46 /* MainViewController.xib */; };
 		70BD682718FFB02D00A1EFCF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BD682618FFB02D00A1EFCF /* Cocoa.framework */; };
 		70BD683118FFB02D00A1EFCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70BD682F18FFB02D00A1EFCF /* InfoPlist.strings */; };
@@ -52,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		486FC1D21CEA8AD2009675EB /* c_guide */ = {isa = PBXFileReference; lastKnownFileType = folder; name = c_guide; path = ../../c_guide; sourceTree = "<group>"; };
+		4892B6041D04C971001268AD /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		707060AE18FFC05700755D46 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		707060B018FFC0D900755D46 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = CGuide/config.xml; sourceTree = "<group>"; };
 		70BD682318FFB02D00A1EFCF /* CGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +101,7 @@
 		70BD681A18FFB02D00A1EFCF = {
 			isa = PBXGroup;
 			children = (
+				4892B6041D04C971001268AD /* Credits.rtf */,
 				486FC1D21CEA8AD2009675EB /* c_guide */,
 				707060B018FFC0D900755D46 /* config.xml */,
 				70BD682C18FFB02D00A1EFCF /* CGuide */,
@@ -260,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4892B6051D04C971001268AD /* Credits.rtf in Resources */,
 				70BD683118FFB02D00A1EFCF /* InfoPlist.strings in Resources */,
 				707060AF18FFC05700755D46 /* MainViewController.xib in Resources */,
 				70BD683F18FFB02D00A1EFCF /* Images.xcassets in Resources */,
