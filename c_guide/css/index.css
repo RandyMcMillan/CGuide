@@ -1,4 +1,78 @@
 @import url("../bower_components/normalize-css/normalize.css");
 @import url("../bower_components/css-colors-solarized/styles/colors-solarized.css");
-@i//mport url("../usf-bootstrap-theme/stylesheets/styles.css");
 
+
+
+@media screen and (max-width: 960px) {
+  body {
+    font-size:100% !important;
+  }}
+@media screen and (max-width: 768px) {
+  body {
+    font-size:70% !important; }
+  }
+@media screen and (max-width: 640px) {
+  body {
+    font-size:60% !important; }
+  }
+
+
+  /* Smartphones (portrait and landscape) ----------- */
+ @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+ /* Styles */
+ }
+
+ /* Smartphones (landscape) ----------- */
+ @media only screen and (min-width : 321px) {
+ /* Styles */
+ }
+
+ /* Smartphones (portrait) ----------- */
+ @media only screen and (max-width : 320px) {
+ /* Styles */
+ }
+
+ /* iPads (portrait and landscape) ----------- */
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+ /* Styles */
+ }
+
+ /* iPads (landscape) ----------- */
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+ /* Styles */
+ }
+
+ /* iPads (portrait) ----------- */
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+ /* Styles */
+ }
+ /**********
+ iPad 3
+ **********/
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+ /* Styles */
+ }
+
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+ /* Styles */
+ }
+ /* Desktops and laptops ----------- */
+ @media only screen  and (min-width : 1224px) {
+ /* Styles */
+ }
+
+ /* Large screens ----------- */
+ @media only screen  and (min-width : 1824px) {
+ /* Styles */
+ }
+
+ /* iPhone 4 ----------- */
+ @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+ /* Styles */
+ }
+
+ @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+ /* Styles */
+ }
+
+ 
