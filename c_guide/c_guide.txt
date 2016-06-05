@@ -10,7 +10,7 @@ Release 1
 
      Welcome to the C Library Reference Guide.  This guide provides a useful look at the
 standard C programming language.  In no way does this guide attempt to teach one how to
-program in C, nor will it attempt to provide the history of C or the various implementations of it. 
+program in C, nor will it attempt to provide the history of C or the various implementations of it.
 It is merely a handy reference to the standard C library.  This guide is not a definitive look at the
 entire ANSI C standard.  Some outdated information has been left out.  It is simply a quick
 reference to the functions and syntax of the language.  All efforts have been taken to make sure
@@ -286,7 +286,7 @@ position.
           \?             Produces a question mark.
           \\             Produces a single backslash.
           \0             Produces a null character.
-          \ddd           Defines one character by the octal digits (base-8 number). 
+          \ddd           Defines one character by the octal digits (base-8 number).
 Multiple                      characters may be defined in the same escape
 sequence, but the value is                        implementation-specific (see
 examples).
@@ -342,7 +342,7 @@ numerical digit or underscore.  Variable names are case sensitive.
      The scope of the variable (where it can be used), is determined by where it is defined.  If
 it is defined outside any block or list of parameters, then it has file scope.  This means it may be
 accessed anywhere in the current source code file.  This is normally called a global variable and
-is normally defined at the top of the source code.  All other types of variables are local variables. 
+is normally defined at the top of the source code.  All other types of variables are local variables.
 If a variable is defined in a block (encapsulated with { and }), then its scope begins when the
 variable is defined and ends when it hits the terminating }.  This is called block scope.  If the
 variable is defined in a function prototype, then the variable may only be accessed in that
@@ -397,7 +397,7 @@ may be the same as       a normal int.
      float
           A floating-point number.  Consists of a sign, a mantissa (number greater than or
 equal to 1), and an           exponent.  The mantissa is taken to the power of the exponent then
-given the sign.  The exponent is        also signed allowing extremely small fractions. 
+given the sign.  The exponent is        also signed allowing extremely small fractions.
 The mantissa gives it a finite precision.
      double
           A more accurate floating-point number than float.  Normally twice as many bits
@@ -502,7 +502,7 @@ structure-name.
      To access a variable in the structure, you must use a record selector (.).
 
      Unions work in the same way as structures except that all variables are contained in the
-same location in memory.  Enough space is allocated for only the largest variable in the union. 
+same location in memory.  Enough space is allocated for only the largest variable in the union.
 All other variables must share the same memory location.  Unions are defined using the union
 keyword.
 
@@ -619,7 +619,7 @@ is done in the following manner:
 
      return-type function-name(paramater-type-list);
 
-     return-type and function-name must correspond exactly to the actual function definition. 
+     return-type and function-name must correspond exactly to the actual function definition.
 parameter-type-list is a list separated by commas of the types of variable parameters.  The actual
 names of the parameters do not have to be given here, although they may for the sake of clarity.
 
@@ -634,7 +634,7 @@ int joe(float coin, double total, int sum)   This is the actual function joe.
 
 int mary(void), *lloyd(double);
 
-This defines the prototype for the function mary with no parameters and return type int. 
+This defines the prototype for the function mary with no parameters and return type int.
 Function llyod is defined with a double type paramater and returns a pointer to an int.
 
 int (*peter)();
@@ -649,7 +649,7 @@ argument: a pointer to a function which returns a character pointer and takes no
 returned function returns a type int and has two parameters of type long and int.
  1.3.2     Program Startup
 
-     A program begins by calling the function main.  There is no prototype required for this. 
+     A program begins by calling the function main.  There is no prototype required for this.
 It can be defined with no parameters such as:
 
      int main(void) { body... }
@@ -805,7 +805,7 @@ printf("%i",!lisa);      This outputs 0 (false).
      The result of this is the value of expression1 divided by expression2.
 
      expression1 % expression2
-     The result of this is the value of the remainder after dividing expression1 by expression2. 
+     The result of this is the value of the remainder after dividing expression1 by expression2.
 Also called the modulo operator.
 
      expression1 & expression2
@@ -1202,7 +1202,7 @@ Only numbers 0 through 9 are printed.
      The return statement causes the current function to terminate.  It can return a value to the
 calling function.  A return statement can not appear in a function whose return type is void.  If
 the value returned has a type different from that of the function's return type, then the value is
-converted.  Using the return statement without an expression creates an undefined result. 
+converted.  Using the return statement without an expression creates an undefined result.
 Reaching the } at the end of the function is the same as returning without an expression.
 
 Syntax:
@@ -1340,7 +1340,7 @@ Syntax:
      #include <header-file>
 
      or
-     
+
      #include "source-file"
 
      When enclosing the file with < and >, then the implementation searches the known
@@ -1445,7 +1445,7 @@ int main(void)
 
      The ctype header is used for testing and converting characters.  A control character refers
 to a character that is not part of the normal printing set.  In the ASCII character set, the control
-characters are the characters from 0 (NUL) through 0x1F (US), and the character 0x7F (DEL). 
+characters are the characters from 0 (NUL) through 0x1F (US), and the character 0x7F (DEL).
 Printable characters are those from 0x20 (space) to 0x7E (tilde).
 
 Functions:
@@ -1719,7 +1719,7 @@ Functions:
 2.6.1     Variables and Definitions
 
      The lconv structure contains the following variables in any order.  The use of this
-structure is described in 2.6.3 localeconv.  
+structure is described in 2.6.3 localeconv.
 
      char *decimal_point;
      char *thousands_sep;
@@ -1802,7 +1802,7 @@ char *thousands_sep
 
 char *grouping
      A string that indicates the size of each group of digits in non-monetary quantities.  Each
-character represents an integer value which designates the number of digits in the current group. 
+character represents an integer value which designates the number of digits in the current group.
 A value of 0 means that the previous value is to be used for the rest of the groups.
 
 char *int_curr_symbol
@@ -1820,7 +1820,7 @@ char *mon_thousands_sep
      The thousands place grouping character used for monetary values.
 
 char *mon_grouping
-     A string whose elements define the size of the grouping of digits in monetary values. 
+     A string whose elements define the size of the grouping of digits in monetary values.
 Each character represents an integer value which designates the number of digits in the current
 group.  A value of 0 means that the previous value is to be used for the rest of the groups.
 
@@ -2528,7 +2528,7 @@ Functions:
      putc();
      putchar();
      puts();
-     ungetc(); 
+     ungetc();
 
 Variables:
      typedef size_t
@@ -2551,7 +2551,7 @@ system can guarantee that can be opened simultaneously.
 suitable for holding the longest possible filename.  If the implementation imposes no limit, then
 this value should be the recommended maximum value.
      L_tmpnam is an integer which represents the longest length of a char array suitable for
-holding the longest possible temporary filename created by the tmpnam function. 
+holding the longest possible temporary filename created by the tmpnam function.
      SEEK_CUR, SEEK_END, and SEEK_SET are used in the fseek function.
      TMP_MAX is the maximum number of unique filenames that the function tmpnam can
 generate.
@@ -2679,7 +2679,7 @@ number of elements successfully read (which may be zero) is returned.
 Declaration:
      FILE *freopen(const char *filename, const char *mode, FILE *stream);
 
-     Associates a new filename with the given open stream.  The old file in stream is closed. 
+     Associates a new filename with the given open stream.  The old file in stream is closed.
 If an error occurs while closing the file, the error is ignored.  The mode argument is the same as
 described in the fopen command.  Normally used for reassociating stdin, stdout, or stderr.
      On success the pointer to the stream is returned.  On error a null pointer is returned.
@@ -2911,7 +2911,7 @@ u         Type unsigned int printed in decimal.
 x         Type unsigned int printed in hexadecimal as dddd using a, b, c, d, e, f.
 X         Type unsigned int printed in hexadecimal as dddd using A, B, C, D, E, F.
 f         Type double printed as [-]ddd.ddd.
-e, E      Type double printed as [-]d.dddeñdd where there is one digit printed before the
+e, E      Type double printed as [-]d.dddeï¿½dd where there is one digit printed before the
 decimal (zero       only if the value is zero).  The exponent contains at least two
 digits.  If type is E then the exponent is        printed with a capital E.
 g, G      Type double printed as type e or E if the exponent is less than -4 or greater than
@@ -2945,10 +2945,10 @@ each input field into the following arguments in a left to right fashion.
      Each input field is specified in the format string with a conversion specifier which
 specifies how the input is to be stored in the appropriate variable.  Other characters in the format
 string specify characters that must be matched from the input, but are not stored in any of the
-following arguments.  If the input does not match then the function stops scanning and returns. 
+following arguments.  If the input does not match then the function stops scanning and returns.
 A whitespace character may match with any whitespace character (space, tab, carriage return,
 new line, vertical tab, or formfeed) or the next incompatible character.
-     An input field is specified with a conversion specifer which begins with the % character. 
+     An input field is specified with a conversion specifer which begins with the % character.
 After the % character come the following in this order:
 
 [*]       Assignment suppressor (optional).
@@ -3209,7 +3209,7 @@ Declaration:
      The string pointed to by the argument str is converted to a floating-point number (type
 double).  Any initial whitespace characters are skipped (space, tab, carriage return, new line,
 vertical tab, or formfeed).  The number may consist of an optional sign, a string of digits with an
-optional decimal character, and an optional e or E followed by a optionally signed exponent. 
+optional decimal character, and an optional e or E followed by a optionally signed exponent.
 Conversion stops when the first unrecognized character is reached.
      On success the converted number is returned.  If no conversion can be made, zero is
 returned.  If the value is out of range of the type double, then HUGE_VAL is returned with the
@@ -3233,7 +3233,7 @@ is returned.
 Declaration:
      long int atol(const char *str);
 
-     The string pointed to by the argument str is converted to a long integer (type long int). 
+     The string pointed to by the argument str is converted to a long integer (type long int).
 Any initial whitespace characters are skipped (space, tab, carriage return, new line, vertical tab,
 or formfeed).  The number may consist of an optional sign and a string of digits.  Conversion
 stops when the first unrecognized character is reached.
@@ -3248,10 +3248,10 @@ Declaration:
      The string pointed to by the argument str is converted to a floating-point number (type
 double).  Any initial whitespace characters are skipped (space, tab, carriage return, new line,
 vertical tab, or formfeed).  The number may consist of an optional sign, a string of digits with an
-optional decimal character, and an optional e or E followed by a optionally signed exponent. 
+optional decimal character, and an optional e or E followed by a optionally signed exponent.
 Conversion stops when the first unrecognized character is reached.
      The argument endptr is a pointer to a pointer.  The address of the character that stopped
-the scan is stored in the pointer that endptr points to. 
+the scan is stored in the pointer that endptr points to.
      On success the converted number is returned.  If no conversion can be made, zero is
 returned.  If the value is out of range of the type double, then HUGE_VAL is returned with the
 appropriate sign and ERANGE is stored in the variable errno.  If the value is too small to be
@@ -3263,7 +3263,7 @@ Declaration:
      long int strtol(const char *str, char **endptr, int base);
 
 
-     The string pointed to by the argument str is converted to a long integer (type long int). 
+     The string pointed to by the argument str is converted to a long integer (type long int).
 Any initial whitespace characters are skipped (space, tab, carriage return, new line, vertical tab,
 or formfeed).  The number may consist of an optional sign and a string of digits.  Conversion
 stops when the first unrecognized character is reached.
@@ -3276,7 +3276,7 @@ fall outside of that base definition are considered unconvertible.  For base 11 
 characters A to Z (or a to z) are used.  If the base is 16, then the characters 0x or 0X may precede
 the number.
      The argument endptr is a pointer to a pointer.  The address of the character that stopped
-the scan is stored in the pointer that endptr points to. 
+the scan is stored in the pointer that endptr points to.
      On success the converted number is returned.  If no conversion can be made, zero is
 returned.  If the value is out of the range of the type long int, then LONG_MAX or LONG_MIN
 is returned with the sign of the correct value and ERANGE is stored in the variable errno.
@@ -3299,7 +3299,7 @@ fall outside of that base definition are considered unconvertible.  For base 11 
 characters A to Z (or a to z) are used.  If the base is 16, then the characters 0x or 0X may precede
 the number.
      The argument endptr is a pointer to a pointer.  The address of the character that stopped
-the scan is stored in the pointer that endptr points to. 
+the scan is stored in the pointer that endptr points to.
      On success the converted number is returned.  If no conversion can be made, zero is
 returned.  If the value is out of the range of the type unsigned long int, then ULONG_MAX is
 returned and ERANGE is stored in the variable errno.
@@ -3733,7 +3733,7 @@ Declaration:
 
      Compares at most the first n bytes of str1 and str2.  Stops comparing after the null
 character.
-     Returns zero if the first n bytes (or null terminated length) of str1 and str2 are equal. 
+     Returns zero if the first n bytes (or null terminated length) of str1 and str2 are equal.
 Returns less than zero or greater than zero if str1 is less than or greater than str2 respectively.
 
 2.14.12   strcoll
@@ -3959,7 +3959,7 @@ Functions:
      gmtime();
      localtime();
      mktime();
-     strftime();    
+     strftime();
      time();
 
 2.15.1    Variables and Definitions
@@ -3992,7 +3992,7 @@ to attempt to calculate whether or not Daylight Savings Time is in effect for th
 Declaration:
      char *asctime(const struct tm *timeptr);
 
-     Returns a pointer to a string which represents the day and time of the structure timeptr. 
+     Returns a pointer to a string which represents the day and time of the structure timeptr.
 The string is in the following format:
 
 DDD MMM dd hh:mm:ss YYYY
@@ -4139,7 +4139,7 @@ Example:
 #include<time.h>
 #include<stdio.h>
 
-/* find out what day of the week is January 1, 2001 
+/* find out what day of the week is January 1, 2001
   (first day of the 21st century) */
 
 int main(void)
@@ -4255,7 +4255,7 @@ Decimal   Octal     Hex  Character
 36   44   24   $
 37   45   25   %
 38   46   26   &
-39   47   27    
+39   47   27
 40   50   28   (
 41   51   29   )
 42   52   2A   *
