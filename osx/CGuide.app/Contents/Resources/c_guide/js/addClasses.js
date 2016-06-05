@@ -1,618 +1,644 @@
-$(function(){
-  $('html').each(function(){
-    $(this).addClass('base03bg');
-  });
+$(function() {
+	$('html').each(function() {
+		$(this).addClass('base03bg');
+	});
 });
 
-$('html').attr( 'text', '#839496' );
+$(function() {
+	$('body').each(function() {
+		$(this).addClass('base03bg');
+	});
+});
 
+$('body').attr('text', '#839496');
+$('body').attr('style', 'margin:10px;padding:5px;font-size:100%;');
 
-$(function(){
-  $('body').each(function(){
-    $(this).addClass('base03bg');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base03');
+	});
 });
 
-$('body').attr( 'text', '#839496' );
-$('body').attr( 'style', 'margin:10px;' );
+$('').attr('text', '#002b36');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base03');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base03');
+	});
 });
 
-$('').attr( 'text', '#002b36' );
+$('').attr('text', '#002b36');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base03');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base03');
+	});
 });
 
-$('').attr( 'text', '#002b36' );
+$('').attr('text', '#002b36');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base03');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base03');
+	});
 });
 
-$('').attr( 'text', '#002b36' );
+$('').attr('text', '#002b36');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base03');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base03');
+	});
 });
 
-$('').attr( 'text', '#002b36' );
+$('').attr('text', '#002b36');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base03');
-  });
+
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base02');
+	});
 });
+
+$('').attr('text', '#073642');
 
-$('').attr( 'text', '#002b36' );
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base02');
+	});
+});
 
+$('').attr('text', '#073642');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base02');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base02');
+	});
 });
 
-$('').attr( 'text', '#073642' );
+$('').attr('text', '#073642');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base02');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base02');
+	});
 });
 
-$('').attr( 'text', '#073642' );
+$('').attr('text', '#073642');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base02');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base01');
+	});
 });
 
-$('').attr( 'text', '#073642' );
+$('').attr('text', '#586e75');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base02');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base01');
+	});
 });
 
-$('').attr( 'text', '#073642' );
+$('').attr('text', '#586e75');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base01');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base01');
+	});
 });
 
-$('').attr( 'text', '#586e75' );
+$('').attr('text', '#586e75');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base01');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base01');
+	});
 });
 
-$('').attr( 'text', '#586e75' );
+$('').attr('text', '#586e75');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base01');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base00');
+	});
 });
 
-$('').attr( 'text', '#586e75' );
+$('').attr('text', '#657b83');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base01');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base00');
+	});
 });
 
-$('').attr( 'text', '#586e75' );
+$('').attr('text', '#657b83');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base00');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base00');
+	});
 });
 
-$('').attr( 'text', '#657b83' );
+$('').attr('text', '#657b83');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base00');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base00');
+	});
 });
 
-$('').attr( 'text', '#657b83' );
+$('').attr('text', '#657b83');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base00');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base0');
+	});
 });
 
-$('').attr( 'text', '#657b83' );
+$('').attr('text', '#839496');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base00');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base0');
+	});
 });
 
-$('').attr( 'text', '#657b83' );
+$('').attr('text', '#839496');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base0');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base0');
+	});
 });
 
-$('').attr( 'text', '#839496' );
+$('').attr('text', '#839496');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base0');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base0');
+	});
 });
 
-$('').attr( 'text', '#839496' );
+$('').attr('text', '#839496');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base0');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base1');
+	});
 });
 
-$('').attr( 'text', '#839496' );
+$('').attr('text', '#586e75');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base0');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base1');
+	});
 });
 
-$('').attr( 'text', '#839496' );
+$('').attr('text', '#586e75');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base1');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base1');
+	});
 });
 
-$('').attr( 'text', '#586e75' );
+$('').attr('text', '#586e75');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base1');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base1');
+	});
 });
 
-$('').attr( 'text', '#586e75' );
+$('').attr('text', '#586e75');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base1');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base2');
+	});
 });
 
-$('').attr( 'text', '#586e75' );
+$('').attr('text', '#eee8d5');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base1');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base2');
+	});
 });
 
-$('').attr( 'text', '#586e75' );
+$('').attr('text', '#eee8d5');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base2');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base2');
+	});
 });
 
-$('').attr( 'text', '#eee8d5' );
+$('').attr('text', '#eee8d5');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base2');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base2');
+	});
 });
 
-$('').attr( 'text', '#eee8d5' );
+$('').attr('text', '#eee8d5');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base2');
-  });
+$(function() {
+	$('h1').each(function() {
+		$(this).addClass('base0');
+	});
 });
 
-$('').attr( 'text', '#eee8d5' );
+$('h1').attr('text', '#fdf6e3');
+$('h1').attr('style', 'font-size: 2.2em;');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base2');
-  });
+$(function() {
+	$('center h1').each(function() {
+		$(this).addClass('base0');
+	});
 });
 
-$('').attr( 'text', '#eee8d5' );
+$('center h1').attr('text', '#fdf6e3');
+$('center h1').attr('style', 'font-size: 2.8em;');
 
-$(function(){
-  $('h1').each(function(){
-    $(this).addClass('base0');
-  });
+$(function() {
+	$('h2').each(function() {
+		$(this).addClass('base0');
+	});
 });
 
-$('h1').attr( 'text', '#fdf6e3' );
+$('h2').attr('text', '#fdf6e3');
+$('h2').attr('style', 'font-size: 2.3em;');
 
-$(function(){
-  $('h3').each(function(){
-    $(this).addClass('base00');
-  });
+$(function() {
+	$('h3').each(function() {
+		$(this).addClass('base00');
+	});
 });
 
-$('').attr( 'text', '#fdf6e3' );
+$('h3').attr('style', 'font-size: 2.3em;');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base3');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base3');
+	});
 });
 
-$('').attr( 'text', '#fdf6e3' );
+$('').attr('text', '#fdf6e3');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('base3');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('base3');
+	});
 });
 
-$('').attr( 'text', '#fdf6e3' );
+$('').attr('text', '#fdf6e3');
 
-$(function(){
-  $('i').each(function(){
-    $(this).addClass('syellow');
-  });
+$(function() {
+	$('i').each(function() {
+		$(this).addClass('syellow');
+	});
 });
 
-$('').attr( 'text', '#b58900' );
+$('').attr('text', '#b58900');
 
-$(function(){
-  $('pre b').each(function(){
-    $(this).addClass('syellow');
-  });
+$(function() {
+	$('pre b').each(function() {
+		$(this).addClass('syellow');
+	});
 });
 
-$('').attr( 'text', '#b58900' );
-$('pre b').attr( 'style', 'margin:0px;' );
+$('').attr('text', '#b58900');
+$('pre a').attr('style', 'font-size:1.3em;margin:0px;');
 
-$(function(){
-  $('b').each(function(){
-    $(this).addClass('syellow');
-  });
+$(function() {
+	$('b').each(function() {
+		$(this).addClass('syellow');
+	});
 });
 
-$('').attr( 'text', '#b58900' );
-$('b').attr( 'style', 'margin:0px;' );
+$('').attr('text', '#b58900');
+$('b').attr('style', 'margin:0px;');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('syellow');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('syellow');
+	});
 });
 
-$('').attr( 'text', '#b58900' );
-$('').attr( 'style', 'margin:0px;' );
+$('').attr('text', '#b58900');
+$('').attr('style', 'margin:0px;');
 
-$(function(){
-  $('blockquote').each(function(){
-    $(this).addClass('base02bg');
-  });
+$(function() {
+	$('blockquote').each(function() {
+		$(this).addClass('base02bg');
+	});
 });
 
-$('').attr( 'text', '#b58900' );
-$('blockquote').attr( 'style', 'padding:8px;' );
+$('').attr('text', '#b58900');
+$('blockquote').attr('style', 'padding:8px;');
 
 
-$(function(){
-  $('hr').each(function(){
-    $(this).addClass('base0');
-  });
+$(function() {
+	$('hr').each(function() {
+		$(this).addClass('base0');
+	});
 });
 
-$('hr').attr( 'size', '1' );
+$('hr').attr('size', '1');
 
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sred');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sred');
+	});
 });
 
-$('').attr( 'text', '#b58900' );
+$('').attr('text', '#b58900');
 
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sred');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sred');
+	});
 });
 
-$('').attr( 'text', '#b58900' );
+$('').attr('text', '#b58900');
 
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sred');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sred');
+	});
 });
 
-$('').attr( 'text', '#b58900' );
+$('').attr('text', '#b58900');
 
 
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sorange');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sorange');
+	});
 });
 
-$('').attr( 'text', '#cb4b16' );
+$('').attr('text', '#cb4b16');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sorange');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sorange');
+	});
 });
 
-$('').attr( 'text', '#cb4b16' );
+$('').attr('text', '#cb4b16');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sorange');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sorange');
+	});
 });
 
-$('').attr( 'text', '#cb4b16' );
+$('').attr('text', '#cb4b16');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sorange');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sorange');
+	});
 });
 
-$('').attr( 'text', '#cb4b16' );
+$('').attr('text', '#cb4b16');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sred');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sred');
+	});
 });
 
-$('').attr( 'text', '#dc322f' );
+$('').attr('text', '#dc322f');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sred');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sred');
+	});
 });
 
-$('').attr( 'text', '#dc322f' );
+$('').attr('text', '#dc322f');
 
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sred');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sred');
+	});
 });
 
-$('').attr( 'text', '#dc322f' );
+$('').attr('text', '#dc322f');
 
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sred');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sred');
+	});
 });
 
-$('').attr( 'text', '#dc322f' );
+$('').attr('text', '#dc322f');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('smagenta');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('smagenta');
+	});
 });
 
-$('').attr( 'text', '#d33682' );
+$('').attr('text', '#d33682');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('smagenta');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('smagenta');
+	});
 });
 
-$('').attr( 'text', '#d33682' );
+$('').attr('text', '#d33682');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('smagenta');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('smagenta');
+	});
 });
 
-$('').attr( 'text', '#d33682' );
+$('').attr('text', '#d33682');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('smagenta');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('smagenta');
+	});
 });
 
-$('').attr( 'text', '#d33682' );
+$('').attr('text', '#d33682');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sviolet');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sviolet');
+	});
 });
 
-$('').attr( 'text', '#6c71c4' );
+$('').attr('text', '#6c71c4');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sviolet');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sviolet');
+	});
 });
 
-$('').attr( 'text', '#6c71c4' );
+$('').attr('text', '#6c71c4');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sviolet');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sviolet');
+	});
 });
 
-$('').attr( 'text', '#6c71c4' );
+$('').attr('text', '#6c71c4');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sviolet');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sviolet');
+	});
 });
 
-$('').attr( 'text', '#6c71c4' );
+$('').attr('text', '#6c71c4');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sviolet');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sviolet');
+	});
 });
 
-$('').attr( 'text', '#6c71c4' );
+$('').attr('text', '#6c71c4');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sblue');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sblue');
+	});
 });
 
-$('').attr( 'text', '#268bd2' );
+$('').attr('text', '#268bd2');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sblue');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sblue');
+	});
 });
 
-$('').attr( 'text', '#268bd2' );
+$('').attr('text', '#268bd2');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sblue');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sblue');
+	});
 });
 
-$('').attr( 'text', '#268bd2' );
+$('').attr('text', '#268bd2');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sblue');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sblue');
+	});
 });
 
-$('').attr( 'text', '#268bd2' );
+$('').attr('text', '#268bd2');
 
-$(function(){
-  $('a').each(function(){
-    $(this).addClass('sblue');
-  });
+$(function() {
+	$('td a').each(function() {
+		$(this).addClass('sblue');
+	});
 });
 
-$('').attr( 'text', '#2aa198' );
+$('td a').attr('style', 'font-size:1.3em;margin:0px;');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('scyan');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('scyan');
+	});
 });
 
-$('').attr( 'text', '#2aa198' );
+$('').attr('text', '#2aa198');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('scyan');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('scyan');
+	});
 });
 
-$('').attr( 'text', '#2aa198' );
+$('').attr('text', '#2aa198');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('scyan');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('scyan');
+	});
 });
 
-$('').attr( 'text', '#2aa198' );
+$('').attr('text', '#2aa198');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sgreen');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sgreen');
+	});
 });
 
-$('').attr( 'text', '#859900' );
+$('').attr('text', '#859900');
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sgreen');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sgreen');
+	});
 });
+
+$('').attr('text', '#859900');
 
-$('').attr( 'text', '#859900' );
 
+$(function() {
+	$('p a').each(function() {
+		$(this).addClass('sgreen');
+	});
+});
 
-$(function(){
-  $('p a').each(function(){
-    $(this).addClass('sgreen');
-  });
+$('p a').attr('font-size', '0.5em');
+$('').attr('text', '#859900');
+$(function() {
+	$('p').each(function() {
+		$(this).addClass('base0');
+	});
 });
 
-$('').attr( 'text', '#859900' );
+$('p').attr('font-size', '0.5em');
+$('').attr('text', '#859900');
 
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sgreen');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sgreen');
+	});
 });
 
-$('').attr( 'text', '#859900' );
+$('').attr('text', '#859900');
 
 
-$(function(){
-  $('code').each(function(){
-    $(this).addClass('sgreen');
-  });
+$(function() {
+	$('code').each(function() {
+		$(this).addClass('sgreen');
+	});
 });
+
+$('').attr('text', '#859900');
+$('code').attr('style', 'margin:0px;');
 
-$('').attr( 'text', '#859900' );
-$('code').attr( 'style', 'margin:0px;' );
 
-$(function(){
-  $('').each(function(){
-    $(this).addClass('sgreen');
-  });
+$(function() {
+	$('').each(function() {
+		$(this).addClass('sgreen');
+	});
 });
 
-$('').attr( 'text', '#859900' );
+$('').attr('text', '#859900');
