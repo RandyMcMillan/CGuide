@@ -28,6 +28,24 @@ $(function() {
 $('center').attr('text', '');
 $('center').attr('style', 'margin:0px;padding:0px;font-size:1.0em');
 
+$(function() {
+	$('center table').each(function() {
+		$(this).addClass('');
+	});
+});
+
+$('center table').attr('text', '');
+$('center table').attr('style', 'margin:0px;padding:0px;font-size:1.2em');
+
+$(function() {
+	$('table').each(function() {
+		$(this).addClass('');
+	});
+});
+
+$('table').attr('text', '');
+$('table').attr('style', 'margin:1%;padding:0px;font-size:1.2em');
+
 
 
 
