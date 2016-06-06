@@ -15,7 +15,7 @@ $(function() {
 });
 
 $('body').attr('text', '#839496');
-$('body').attr('style', 'margin:10px;padding:5px;font-size:200%;');
+$('body').attr('style', 'margin:10px;padding:5px;font-size:100%;');
 
 
 
@@ -26,7 +26,7 @@ $(function() {
 });
 
 $('center').attr('text', '');
-$('center').attr('style', 'margin:0px;padding:0px;font-size:100%;');
+$('center').attr('style', 'margin:0px;padding:0px;font-size:1.0em');
 
 
 
@@ -271,7 +271,7 @@ $(function() {
 });
 
 $('h1').attr('text', '#fdf6e3');
-$('h1').attr('style', 'font-size: 1.0em;');
+$('h1').attr('style', 'font-size: 1.3em;');
 
 $(function() {
 	$('center h1').each(function() {
@@ -280,8 +280,10 @@ $(function() {
 });
 
 $('center h1').attr('text', '#fdf6e3');
-$('center h1').attr('style', 'font-size: 1.0em;');
+$('center h1').attr('style', 'font-size: 2.4em;');
 
+
+/* doesnt affect anything
 $(function() {
 	$('center a').each(function() {
 		$(this).addClass('base0');
@@ -289,7 +291,9 @@ $(function() {
 });
 
 $('center a').attr('text', '#fdf6e3');
-$('center a').attr('style', 'font-size: 1.0em;');
+$('center a').attr('style', 'font-size: 10.1em;');
+
+*/
 
 $(function() {
 	$('h2').each(function() {
@@ -339,7 +343,7 @@ $(function() {
 });
 
 $('').attr('text', '#b58900');
-$('pre').attr('style', 'font-size:0.65em;margin:0px;');
+$('pre').attr('style', 'font-size:1.0em;margin:0px;');
 
 
 $(function() {
@@ -668,7 +672,7 @@ $(function() {
 	});
 });
 
-$('p').attr('font-size', '0.1em');
+$('p').attr('font-size', '1.0em');
 $('p').attr('text', '#859900');
 $('p').attr('style', 'padding:8px;');
 
