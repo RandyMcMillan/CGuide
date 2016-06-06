@@ -30,6 +30,8 @@
     self = [super initWithWindow:window];
     if (self) {
         // Initialization code here.
+            //[self.webView setBackgroundColor:[NSColor colorWithRed:0 green:0 blue:0 alpha:0]];
+        
     }
 
     return self;

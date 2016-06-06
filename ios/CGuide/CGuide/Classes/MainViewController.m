@@ -68,7 +68,7 @@
     // View defaults to full size.  If you want to customize the view's size, or its subviews (e.g. webView),
     // you can do so here.
     
-    //self.webView
+    [self.webView setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:0]];
 
     [super viewWillAppear:animated];
 }

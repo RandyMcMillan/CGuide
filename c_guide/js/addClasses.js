@@ -4,6 +4,8 @@ $(function() {
 	});
 });
 
+$('html').attr('style', 'font-size:100%;');
+
 $(function() {
 	$('body').each(function() {
 		$(this).addClass('base03bg');
@@ -253,7 +255,7 @@ $(function() {
 });
 
 $('h1').attr('text', '#fdf6e3');
-$('h1').attr('style', 'font-size: 2.2em;');
+$('h1').attr('style', 'font-size: 1.0em;');
 
 $(function() {
 	$('center h1').each(function() {
@@ -262,7 +264,16 @@ $(function() {
 });
 
 $('center h1').attr('text', '#fdf6e3');
-$('center h1').attr('style', 'font-size: 2.8em;');
+$('center h1').attr('style', 'font-size: 1.0em;');
+
+$(function() {
+	$('center a').each(function() {
+		$(this).addClass('base0');
+	});
+});
+
+$('center a').attr('text', '#fdf6e3');
+$('center a').attr('style', 'font-size: 1.0em;');
 
 $(function() {
 	$('h2').each(function() {
@@ -271,7 +282,7 @@ $(function() {
 });
 
 $('h2').attr('text', '#fdf6e3');
-$('h2').attr('style', 'font-size: 2.3em;');
+$('h2').attr('style', 'font-size: 1.0em;');
 
 $(function() {
 	$('h3').each(function() {
@@ -279,7 +290,7 @@ $(function() {
 	});
 });
 
-$('h3').attr('style', 'font-size: 2.3em;');
+$('h3').attr('style', 'font-size: 1.0em;');
 
 $(function() {
 	$('').each(function() {
@@ -312,7 +323,7 @@ $(function() {
 });
 
 $('').attr('text', '#b58900');
-$('pre a').attr('style', 'font-size:1.3em;margin:0px;');
+$('pre a').attr('style', 'font-size:1.0em;margin:0px;');
 
 $(function() {
 	$('b').each(function() {
@@ -321,7 +332,7 @@ $(function() {
 });
 
 $('').attr('text', '#b58900');
-$('b').attr('style', 'margin:0px;');
+$('b').attr('style', 'font-size:1.0em;margin:0px;');
 
 $(function() {
 	$('').each(function() {
@@ -330,7 +341,7 @@ $(function() {
 });
 
 $('').attr('text', '#b58900');
-$('').attr('style', 'margin:0px;');
+$('').attr('style', 'font-size:1.0em;margin:0px;');
 
 $(function() {
 	$('blockquote').each(function() {
@@ -339,7 +350,7 @@ $(function() {
 });
 
 $('').attr('text', '#b58900');
-$('blockquote').attr('style', 'padding:8px;');
+$('blockquote').attr('style', 'font-size:1.0em;padding:8px;');
 
 
 $(function() {
@@ -350,6 +361,14 @@ $(function() {
 
 $('hr').attr('size', '1');
 
+$(function() {
+	$('a').each(function() {
+		$(this).addClass('base0');
+	});
+});
+
+$('a').attr('text', '#fdf6e3');
+$('a').attr('style', 'font-size: 1.0em;');
 
 $(function() {
 	$('').each(function() {
@@ -555,7 +574,7 @@ $(function() {
 	});
 });
 
-$('td a').attr('style', 'font-size:1.3em;margin:0px;');
+$('td a').attr('style', 'font-size:1.0em;margin:0px;');
 
 $(function() {
 	$('').each(function() {
@@ -604,7 +623,7 @@ $(function() {
 	});
 });
 
-$('p a').attr('font-size', '0.5em');
+$('p a').attr('font-size', '1.0em');
 $('').attr('text', '#859900');
 $(function() {
 	$('p').each(function() {
@@ -612,7 +631,7 @@ $(function() {
 	});
 });
 
-$('p').attr('font-size', '0.5em');
+$('p').attr('font-size', '1.0em');
 $('').attr('text', '#859900');
 
 
