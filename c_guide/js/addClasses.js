@@ -6,6 +6,8 @@ $(function() {
 
 $('html').attr('style', 'font-size:100%;');
 
+
+
 $(function() {
 	$('body').each(function() {
 		$(this).addClass('base03bg');
@@ -14,6 +16,8 @@ $(function() {
 
 $('body').attr('text', '#839496');
 $('body').attr('style', 'margin:10px;padding:5px;font-size:200%;');
+
+
 
 $(function() {
 	$('center').each(function() {
@@ -349,7 +353,7 @@ $('pre a').attr('style', 'font-size:1.0em;margin:0px;');
 
 $(function() {
 	$('pre b').each(function() {
-		$(this).addClass('syellow');
+		$(this).addClass('');
 	});
 });
 
@@ -358,12 +362,22 @@ $('pre b').attr('style', 'font-size:1.0em;margin:0px;');
 
 $(function() {
 	$('b').each(function() {
-		$(this).addClass('syellow');
+		$(this).addClass('');
 	});
 });
 
 $('').attr('text', '#b58900');
 $('b').attr('style', 'font-size:1.0em;margin:0px;');
+
+$(function() {
+	$('b a').each(function() {
+		$(this).addClass('');
+	});
+});
+
+$('').attr('text', '#b58900');
+$('b a').attr('style', 'font-size:1.0em;margin:0px;text:#111;');
+
 
 $(function() {
 	$('').each(function() {
@@ -649,22 +663,24 @@ $('').attr('text', '#859900');
 
 
 $(function() {
+	$('p').each(function() {
+		$(this).addClass('base02bg');
+	});
+});
+
+$('p').attr('font-size', '0.1em');
+$('p').attr('text', '#859900');
+$('p').attr('style', 'padding:8px;');
+
+
+$(function() {
 	$('p a').each(function() {
-		$(this).addClass('sgreen');
+		$(this).addClass('');
 	});
 });
 
 $('p a').attr('font-size', '1.0em');
-$('').attr('text', '#859900');
-$(function() {
-	$('p').each(function() {
-		$(this).addClass('base0');
-	});
-});
-
-$('p').attr('font-size', '1.0em');
-$('').attr('text', '#859900');
-
+$('').attr('text', '');
 
 $(function() {
 	$('').each(function() {
