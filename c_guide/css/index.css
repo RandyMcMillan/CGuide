@@ -34,6 +34,18 @@
     font-size:72% !important; }/* fits TOC 72% good */
   }
 
+  @media screen and (max-width: 480px) {
+    body {
+      font-size:62% !important; }/* fits TOC 72% good */
+    }
+
+
+    @media screen and (max-width: 320px) {
+      body {
+        font-size:52% !important; }/* fits TOC 72% good */
+      }
+
+
   /* Smartphones (portrait and landscape) ----------- */
  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
  /* Styles */
