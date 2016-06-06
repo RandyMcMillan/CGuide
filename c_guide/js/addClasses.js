@@ -13,7 +13,19 @@ $(function() {
 });
 
 $('body').attr('text', '#839496');
-$('body').attr('style', 'margin:10px;padding:5px;font-size:100%;');
+$('body').attr('style', 'margin:10px;padding:5px;font-size:200%;');
+
+$(function() {
+	$('center').each(function() {
+		$(this).addClass('');
+	});
+});
+
+$('center').attr('text', '');
+$('center').attr('style', 'margin:0px;padding:0px;font-size:100%;');
+
+
+
 
 $(function() {
 	$('').each(function() {
@@ -317,13 +329,32 @@ $(function() {
 $('').attr('text', '#b58900');
 
 $(function() {
-	$('pre b').each(function() {
+	$('pre').each(function() {
+		$(this).addClass('');
+	});
+});
+
+$('').attr('text', '#b58900');
+$('pre').attr('style', 'font-size:0.65em;margin:0px;');
+
+
+$(function() {
+	$('pre a').each(function() {
 		$(this).addClass('syellow');
 	});
 });
 
 $('').attr('text', '#b58900');
 $('pre a').attr('style', 'font-size:1.0em;margin:0px;');
+
+$(function() {
+	$('pre b').each(function() {
+		$(this).addClass('syellow');
+	});
+});
+
+$('').attr('text', '#b58900');
+$('pre b').attr('style', 'font-size:1.0em;margin:0px;');
 
 $(function() {
 	$('b').each(function() {
