@@ -6,8 +6,6 @@ $(function() {
 
 $('html').attr('style', 'font-size:100%;');
 
-
-
 $(function() {
 	$('body').each(function() {
 		$(this).addClass('base03bg');
@@ -46,9 +44,6 @@ $(function() {
 $('table').attr('text', '');
 $('table').attr('style', 'margin:1%;padding:0px;font-size:1.2em');
 
-
-
-
 $(function() {
 	$('').each(function() {
 		$(this).addClass('base03');
@@ -88,7 +83,6 @@ $(function() {
 });
 
 $('').attr('text', '#002b36');
-
 
 $(function() {
 	$('').each(function() {
@@ -363,7 +357,6 @@ $(function() {
 $('').attr('text', '#b58900');
 $('pre').attr('style', 'font-size:1.0em;margin:0px;');
 
-
 $(function() {
 	$('pre a').each(function() {
 		$(this).addClass('syellow');
@@ -430,7 +423,7 @@ $('hr').attr('size', '1');
 
 $(function() {
 	$('a').each(function() {
-		$(this).addClass('base0');
+		$(this).addClass('syellow');
 	});
 });
 
